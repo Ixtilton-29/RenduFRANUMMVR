@@ -14,9 +14,7 @@ La construction de cette anthologie repose initialement sur la mise en place d�
 
 L’édition proprement dite constitue une seconde phase, distincte de l’archivage : il s’agit d’une mise à disposition du corpus, rendue possible par une médiation technique et critique, via une transformation XSLT qui permet de générer une interface publique et lisible. Lors de cette étape, certains éléments initialement présents sous forme de liens ou d’instructions acquièrent une dimension graphique et interactive, devenant ainsi partie intégrante de l’expérience de lecture proposée, tandis que d’autres restent en retrait, préservés dans l’archive comme composantes documentaires. 
 
-Ces choix éditoriaux, assumés et documentés, relèvent de la responsabilité de l’éditeur-chercheur, dont le rôle est d’assurer la transparence de l’ensemble du processus, de l’archivage à la publication.
-
-Des choix éditoriaux interviennent également à ce niveau (comme à toutes les étapes du procesus). responsabilité de l'éditeur-chercheur : assurer la transparence du processus. 
+Ces choix éditoriaux, relèvent de la responsabilité de l’éditeur-chercheur, dont le rôle est d’assurer la transparence de l’ensemble du processus, de l’archivage à la publication.
 
 ### Les commentaires
 

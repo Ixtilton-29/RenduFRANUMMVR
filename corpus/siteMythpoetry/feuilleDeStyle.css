@@ -304,7 +304,6 @@ code {
     }
 }
 
-/* Bouton de visibilité des notes */
 .notes-toggle {
   background: #6c757d;
   color: white;
@@ -325,7 +324,6 @@ code {
   margin-right: 5px;
 }
 
-/* Style des notes d'encodage */
 .commentaire {
   background-color: #f8f9fa;
   border-left: 4px solid #007acc;
