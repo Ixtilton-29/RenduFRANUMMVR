@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>keep spining the thread Ariadne - h.c.r.</title>
+      <link rel="stylesheet" type="text/css" href="feuilleDeStyle.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><script>
+          document.addEventListener("DOMContentLoaded", function () {
+          const btn = document.getElementById("bouton-visibilite");
+          if (!btn) return;
+          
+          document.querySelectorAll(".commentaire").forEach(el => {
+          el.style.display = "none";
+          });
+          
+          btn.addEventListener("click", () => {
+          const commentaires = document.querySelectorAll(".commentaire");
+          commentaires.forEach(el => {
+          if (el.style.display === "none") {
+          el.style.display = "";
+          } else {
+          el.style.display = "none";
+          }
+          });
+          
+          btn.textContent = btn.textContent.includes("Afficher") 
+          ? "Masquer les notes d'encodage" 
+          : "Afficher les notes d'encodage";
+          });
+          });
+        </script></head>
+   <body>
+      <nav class="main-nav">
+         <div class="nav-container">
+            <div><a href="../../index.html" class="nav-home"><i class="fas fa-home"></i>Accueil </a></div>
+            <div class="nav-links"><a href="../metadonnees/IndexAuteurs.html"><i class="fas fa-users"></i> Index des Auteurs</a><a href="../metadonnees/IndexPersonnages.html"><i class="fas fa-user-friends"></i> Index des Personnages </a><a href="../metadonnees/IndexBibliographique.html"><i class="fas fa-book"></i> Index Bibliographique </a><button id="bouton-visibilite" class="notes-toggle"><i class="fas fa-sticky-note"></i> Afficher les notes d'encodage </button></div>
+         </div>
+      </nav>
+      <main class="poem-container">
+         <header class="poem-header">
+            <h1 class="poem-title">keep spining the thread Ariadne</h1>
+            <p class="poem-author"><a href="../metadonnees/IndexAuteurs.html#HCR" class="author-link">h.c.r.<i class="fas fa-external-link-alt author-icon"></i></a></p>
+         </header>
+         <div>
+            <div class="poem-body">
+               keep spinning the thread, <a href="../metadonnees/IndexPersonnages.html#ARIANE" class="character-link">ariadne<i class="fas fa-external-link-alt character-icon"></i></a>
+               
+               <div class="poem-stanza">
+                  
+                  <div class="poem-line">"<a href="../metadonnees/IndexPersonnages.html#ARIANE" class="character-link">You<i class="fas fa-external-link-alt character-icon"></i></a> spin
+                     the thread around your finger and</div>
+                  
+                  <div class="poem-line">with every new soft layer of wool on your knuckle</div>
+                  
+                  <div class="poem-line">a brittle layer of your old self peels off.</div>
+                  
+                  <div class="poem-line">The <a href="../metadonnees/IndexPersonnages.html#THESEE" class="character-link">hero<i class="fas fa-external-link-alt character-icon"></i></a>
+                     you’re chasing doesn’t know it yet but</div>
+                  
+                  <div class="poem-line">you’re armed with more than your beautiful smile and</div>
+                  
+                  <div class="poem-line">the moment he feels the steel split his spine will be</div>
+                  
+                  <div class="poem-line">the moment when you and your <a href="../metadonnees/IndexPersonnages.html#MINOTAURE" class="character-link">brother<i class="fas fa-external-link-alt character-icon"></i></a> have
+                     won:</div>
+                  
+                  <div class="poem-line">because the sister of a <a href="../metadonnees/IndexPersonnages.html#MINOTAURE" class="character-link">monster<i class="fas fa-external-link-alt character-icon"></i></a> has
+                     her own claws</div>
+                  
+                  <div class="poem-line">and they’ll all know yours when the time comes."</div>
+                  </div>
+               
+               
+               </div>
+         </div>
+      </main>
+      <footer class="metadata-panel">
+         <div class="metadata-container">
+            <h3 class="metadata-title"><i class="fas fa-info-circle"></i> Métadonnées du document </h3>
+            <div class="metadata-grid">
+               <div class="metadata-column">
+                  <h4 class="metadata-subtitle">Identification</h4>
+                  <div class="metadata-item"><span class="metadata-label">Titre :</span><span class="metadata-value">keep spining the thread Ariadne</span></div>
+                  <div class="metadata-item"><span class="metadata-label">Auteur :</span><span class="metadata-value"><a href="../metadonnees/IndexAuteurs.html#HCR" class="author-link">h.c.r.<i class="fas fa-external-link-alt author-icon"></i></a></span></div>
+                  <div class="metadata-item"><span class="metadata-label">Identifiant au sein du Corpus :</span><code class="metadata-value">textePoetiqueKeepSpiningTheThread</code></div>
+               </div>
+               <div class="metadata-column">
+                  <h4 class="metadata-subtitle">Sources et références</h4>
+                  <div class="metadata-item"><span class="metadata-label">Source bibliographique :</span><span class="metadata-value"><a href="../metadonnees/IndexBibliographique.html#H.C.R.2014" class="bibl-link">Voir la référence<i class="fas fa-external-link-alt bibl-icon"></i></a></span></div>
+                  <div class="metadata-item"><span class="metadata-label">Ontologie :</span><a href="../../ontologie/monOntologie.ttl" class="metadata-link"><i class="fas fa-project-diagram"></i> Voir l'ontologie </a></div>
+               </div>
+               <div class="metadata-column">
+                  <h4 class="metadata-subtitle">Documents associés</h4>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

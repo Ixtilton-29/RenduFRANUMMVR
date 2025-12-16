@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Courtney Love Prays To Oregon</title>
+            <author>Clementine von Radics</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>non publié</p>
+         </publicationStmt>
+         <sourceDesc xml:id="textePoetiqueCourtneyLove">
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#Von_Radics2016"/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="../../onthologie/monOntologie.ttl"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <l> This is the house that built me </l>
+            <l> and I’m gonna burn it down. </l>
+         </div>
+         <div>
+            <l>This is the river I crawled</l>
+            <l> from and I refuse to drown here. </l>
+         </div>
+         <div>
+            <l> And bless the strippers </l>
+            <l> and fuck the men. </l>
+         </div>
+         <div>
+            <l> And bless the berries </l>
+            <l> but fuck the farm. </l>
+         </div>
+         <div>
+            <l> And bless the daughter </l>
+            <l> but fuck the family. </l>
+         </div>
+         <div>
+            <l> What is a home </l>
+            <l> if not the first place you learn to run from? </l>
+         </div>
+         <div>
+            <l> You’ve got to bite the hand </l>
+            <l> that starves you, and in doing so </l>
+         </div>
+         <div>
+            <l> Praise the place that birthed you. </l>
+         </div>
+         <div>
+            <l> Birthed you fucked up. </l>
+            <l> Birthed you ugly and interesting, </l>
+         </div>
+         <div>
+            <l> and ready to scream. </l>
+         </div>
+      </body>
+   </text>
+</TEI>

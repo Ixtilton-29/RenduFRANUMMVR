@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --text-color: #333;
+    --light-bg: #f8f9fa;
+    --white: #ffffff;
+    --gray-light: #e8e8e8;
+    --gray-medium: #777;
+    --border-color: #ddd;
+    --chicago-red: #8B0000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background: var(--light-bg);
+    min-height: 100vh;
+}
+
+.main-nav {
+    background: var(--primary-color);
+    padding: 0.75rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.nav-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.nav-home, .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.nav-home {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.page-header {
+    max-width: 900px;
+    margin: 2rem auto 1rem;
+    padding: 0 1rem;
+}
+
+.page-title {
+    color: var(--primary-color);
+    font-size: 1.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.page-subtitle {
+    color: var(--gray-medium);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.index-item {
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    margin-bottom: 1.5rem; /* Grand espacement entre les items */
+    padding: 1.25rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bibl-item {
+    border-left: 3px solid var(--chicago-red);
+}
+
+.index-item-id {
+    color: var(--gray-medium);
+    font-size: 0.75rem;
+    font-family: monospace;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px dotted var(--gray-light);
+}
+
+.index-item-id span {
+    background: var(--gray-light);
+    color: var(--text-color);
+    padding: 0.1rem 0.4rem;
+    border-radius: 2px;
+    font-size: 0.65rem;
+    margin-left: 0.5rem;
+}
+
+.index-item-content {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.bibl-author,
+.bibl-title,
+.bibl-details {
+    display: inline;
+}
+
+.bibl-author {
+    font-weight: normal;
+}
+
+.bibl-title {
+    font-style: italic;
+}
+
+.bibl-details {
+    font-size: 0.95rem;
+}
+
+.bibl-details > div {
+    display: inline;
+}
+
+.bibl-author, 
+.bibl-title, 
+.bibl-details div,
+.bibl-url {
+    margin: 0;
+    padding: 0;
+}
+
+.bibl-url {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.bibl-url:hover {
+    text-decoration: underline;
+}
+
+/* Ponctuation Chicago */
+.bibl-author::after {
+    content: ". ";
+}
+
+.bibl-title::after {
+    content: ". ";
+}
+
+.bibl-details div:nth-child(1)::after {
+    content: ", ";
+}
+
+
+.bibl-url::before {
+    content: " ";
+}
+
+.index-item:target {
+    background-color: #f5f5f5;
+    animation: highlight 2s;
+}
+
+@keyframes highlight {
+    0% { background-color: rgba(139, 0, 0, 0.1); }
+    100% { background-color: #f5f5f5; }
+}
+
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    
+    .index-item {
+        margin: 0 0.5rem 1.25rem;
+        padding: 1rem;
+    }
+    
+    .page-title {
+        font-size: 1.5rem;
+    }
+    
+    .page-subtitle {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .index-item {
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+    }
+    
+    .index-item-content {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+}
+
+/* Bouton de visibilité des notes */
+.notes-toggle {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+  margin-left: 10px;
+}
+
+.notes-toggle:hover {
+  background: #5a6268;
+}
+
+.notes-toggle i {
+  margin-right: 5px;
+}
+
+.commentaire {
+  background-color: #f8f9fa;
+  border-left: 4px solid #007acc;
+  padding: 12px 15px;
+  margin: 15px 0;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #495057;
+}
+
+.commentaire-header {
+  font-weight: bold;
+  color: #007acc;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.commentaire-header i {
+  margin-right: 8px;
+}
+
+.commentaire-content {
+  line-height: 1.5;
+}

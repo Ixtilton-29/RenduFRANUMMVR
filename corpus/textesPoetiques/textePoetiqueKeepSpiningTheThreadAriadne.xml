@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <!-- donner un identifiant au texte, appeler l'auteur dans le header (renvoi index) Appeler les images associées. Donner un numéro de version-->
+      <fileDesc>
+         <titleStmt>
+            <title>keep spining the thread Ariadne</title>
+            <author ref="../metadonnees/IndexAuteurs.xml#HCR">h.c.r.</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc xml:id="textePoetiqueKeepSpiningTheThread">
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#H.C.R.2014"/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="../../onthologie/monOntologie.ttl"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head rend="basdelapage">keep spinning the thread, <persName
+               corresp="../metadonnees/IndexPersonnages.xml#ARIANE">ariadne</persName></head>
+         <div>
+            <l>"<persName corresp="=../metadonnees/IndexPersonnages.xml#ARIANE">You</persName> spin
+               the thread around your finger and</l>
+            <l>with every new soft layer of wool on your knuckle</l>
+            <l>a brittle layer of your old self peels off.</l>
+            <l>The <persName corresp="../metadonnees/IndexPersonnages.xml#THESEE">hero</persName>
+               you’re chasing doesn’t know it yet but</l>
+            <l>you’re armed with more than your beautiful smile and</l>
+            <l>the moment he feels the steel split his spine will be</l>
+            <l>the moment when you and your <persName
+                  corresp="../metadonnees/IndexPersonnages.xml#MINOTAURE">brother</persName> have
+               won:</l>
+            <l>because the sister of a <persName
+                  corresp="../metadonnees/IndexPersonnages.xml#MINOTAURE">monster</persName> has
+               her own claws</l>
+            <l>and they’ll all know yours when the time comes."</l>
+         </div>
+         <!-- comment rendre les tags ? doivent ils être actifs ? 
+            ou non, juste une image figée ? Sont ils signifiant par l'acte de renvoi qu'ils rendent possible ? Par leur texte ?-->
+        
+      </body>
+   </text>
+</TEI>

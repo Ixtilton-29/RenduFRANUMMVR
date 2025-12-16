@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <!-- donner un identifiant au texte, appeler l'auteur dans le header (renvoi index) Appeler les images associées. 
+         Donner un numéro de version-->
+      <fileDesc>
+         <titleStmt>
+            <title>blood string, fibrous gut</title>
+            <author ref="../metadonnees/IndexAuteurs.xml#STARK_Natasza">natasza stark</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc xml:id="textePoetiqueBloodString">
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#Stark2015"/>
+            <listObject>
+               <object type="imageTémoin">
+                  <objectIdentifier>
+                     <objectName>Capture d'écran du poème lors de sa collecte</objectName>
+                     <idno corresp="../images/imagesTemoins/temoinBloodStringFibrousGut.png"/>
+                  </objectIdentifier>
+               </object>
+               <object type="codeSource">
+                  <objectIdentifier>
+                     <objectName>Code Source</objectName>
+                     <idno corresp="../codeSource/theLabyrintheCodeSource.html"/>
+                  </objectIdentifier>
+               </object>
+            </listObject>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="../../ontologie/monOntologie.ttl"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <l>“</l>
+            <l>there is a monster in <persName corresp="../metadonnees/IndexPersonnages.xml#ARIANE"
+                  >me</persName>, too. i feel it;</l>
+            <l>a meanness, growing like a tree</l>
+            <l>in my belly.</l>
+            <lb/>
+            <l>is it hidden-in my long fingered hands</l>
+            <l>in my hair the color of blood?</l>
+            <lb/>
+            <l>in my wildfire love</l>
+            <l>only a <persName>god</persName> could bear?</l>
+            <lb/>
+            <l>is that why i was spared?</l>
+            <lb/>
+            <l>i’ll have you know:</l>
+            <l>i am as bloodthirsty as my <persName
+                  corresp="../metadonnees/IndexPersonnages.xml#MINOS">father</persName></l>
+            <!-- moi aussi j'ai plus faim qu'un bénédictin -->
+            <l>and that was not thread you unwound</l>
+            <lb/>
+            <l>i’ll have you know-</l>
+            <l>that bull was a <persName corresp="../metadonnees/IndexPersonnages.xml#MINOTAURE"
+                  >brother</persName> to me.</l>
+            <l>”</l>
+         </div>
+      </body>
+   </text>
+</TEI>

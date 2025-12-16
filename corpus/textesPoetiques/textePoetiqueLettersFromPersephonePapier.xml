@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letters from Persephone</title>
+            <author><persName corresp="../metadonnees/IndexAuteurs.xml#WEE_Natalie">Natalie
+                  Wee</persName></author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc xml:id="textePoetiqueLettersFromPersephonePapier">
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#Wee2016"/>
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#Wee2021"/>
+            <listObject>
+               <object type="imageTémoin">
+                  <objectIdentifier>
+                     <objectName>Témoin de la diffusion du poème sur le web n°1</objectName>
+                     <idno corresp="../images/imagesDiffusion/DiffusionLettersFromP1.png"/>
+                  </objectIdentifier>
+               </object>
+               <object type="oeuvreDérivee">
+                  <objectIdentifier>
+                     <objectName>Texte dérivé de celui-ci.</objectName>
+                  </objectIdentifier>
+               </object>
+            </listObject>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="../../ontologie/monOntologie.ttl"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <p>After <persName corresp="../metadonnees/IndexAuteurs.xml#MULROY_TaraMae">Tara Mae
+                  Mulroy</persName>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div>
+            <note>Le poème original est une forme éminemment graphique. Les attributs @rend dans
+               l'encodage. Le fichier XSL à l'origine du HTML n'a pas encore été modifié en
+               conséquent, d'où le piètre rendu actuel. Ici se pose une question stratégique :
+               vaut-il mieux démultiplier les template XSL, et ainsi tendre vers une modélisation
+               unique et singulière de chaque texte ? Ou plutôt construire un modèle universel (un
+               template unique) pour tous les textes de notre corpus ? Peut-on même construire un
+               modèle universel pour la poésie digitale (pour la poésie tout court) ?</note>
+
+            <l><seg rend="1Alinéa">Waited so long</seg></l>
+            <l><seg rend="gauche">for fruit <persName
+                     corresp="../metadonnees/IndexPersonnages.xml#DEMETER"
+               >mama</persName>.</seg></l>
+            <l><seg rend="1Alinéa"><persName
+                     corresp="../metadonnees/IndexPersonnages.xml#PERSEPHONE">I</persName> found
+                  it</seg><seg rend="droite">ripe</seg></l>
+            <l><seg rend="gauche">between antlered thighs</seg></l>
+            <l><seg rend="1Alinéa">in the fields my</seg></l>
+            <l><seg rend="gauche">skull was a crown</seg></l>
+            <l><seg rend="1Alinéa">set on foundations</seg></l>
+            <l><seg rend="gauche">of desire</seg><seg rend="droite">he</seg></l>
+            <l><seg rend="1Alinéa">was my first</seg></l>
+            <l><seg rend="gauche">act of godhood</seg></l>
+            <l><seg rend="droite">body</seg></l>
+            <l><seg rend="1Alinéa">resurected from un</seg></l>
+            <l><seg rend="gauche">-speakable places to</seg></l>
+            <l><seg rend="1Alinéa">be mine</seg></l>
+         </div>
+         <div>
+            <l><seg rend="droite"><persName corresp="../metadonnees/IndexPersonnages.xml#HADES"
+                     >his</persName></seg></l>
+            <l><seg rend="gauche">fingers</seg></l>
+            <l><seg rend="1Alinéa">wingspan</seg></l>
+            <l><seg rend="2Alinéa">my jaw open</seg></l>
+         </div>
+         <div>
+            <p><emph>
+                  <l><seg rend="gauche">this</seg></l>
+                  <l><seg rend="gauche"> is how </seg></l>
+                  <l><seg rend="gauche"> you break the earth </seg></l>
+                  <l><seg rend="gauche">for desire</seg></l>
+               </emph></p>
+         </div>
+         <div>
+            <l><seg rend="1Alinéa">Beneath dirt</seg></l>
+            <l><seg rend="gauche"> my skin blooms </seg></l>
+            <l><seg rend="1Alinéa">nightshade</seg><seg rend="droite">oh</seg></l>
+            <l><seg rend="2Alinéa">mama we </seg></l>
+            <l><seg rend="gauche">are luminary</seg><seg rend="droite">doves</seg></l>
+            <l><seg rend="1Alinéa">where nothing</seg></l>
+            <l><seg rend="droite">flies his</seg></l>
+         </div>
+         <div>
+            <l><seg rend="gauche">hair river</seg></l>
+            <l><seg rend="1Alinéa">reeds full </seg></l>
+            <l><seg rend="gauche"> moon every night </seg></l>
+            <l><seg rend="2Alinéa">he coaxes</seg></l>
+            <l><seg rend="droite">spring</seg></l>
+         </div>
+         <div>
+            <l><seg rend="1Alinéa">from inside me</seg></l>
+         </div>
+
+      </body>
+   </text>
+</TEI>

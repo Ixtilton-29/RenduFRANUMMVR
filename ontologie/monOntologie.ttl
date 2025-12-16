@@ -1,0 +1,177 @@
+@prefix : <http://votredomaine.org/ontologie/poesie/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tei: <http://www.tei-c.org/ns/1.0#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+:OntologiePoesieNumerique a owl:Ontology ;
+    rdfs:label "Ontologie de mon corpus poétique"@fr ;
+    dc:creator "Juliette Sokolov" ;
+    owl:versionInfo "1.0" ;
+    owl:imports <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Classes
+
+:textePoetique a owl:Class ;
+    rdfs:label "textePoetique"@fr ;
+    rdfs:comment "Un texte poétique encodé en TEI qui peut être issu de plusieurs documents (posts numérique)"@fr .
+
+:auteur a owl:Class ;
+    rdfs:label "auteur"@fr ;
+    rdfs:comment "Personne ayant créé le texte poétique"@fr .
+
+:referenceBibliographique a owl:Class ;
+    rdfs:label "reférenceBibliographique"@fr .
+
+:image a owl:Class ;
+    rdfs:label "image"@fr .
+
+:codeSource a owl:Class ;
+    rdfs:label "codeSource"@fr ;
+    rdfs:comment "Témoin de l'infrastructure technique sous tendant le textePoetique"@fr .
+
+:personnage a owl:Class ;
+    rdfs:label "personnage" ;
+    rdfs:comment "personnage mythologique référencé dans les textes" .
+
+## Sous-classes
+
+:imageDiffusion a owl:Class ;
+    rdfs:label "imageDiffusion"@fr ;
+    rdfs:subClassOf :image ;
+    rdfs:comment "image témoin de la diffusion du texte dans l'espace numérique"@fr .
+
+:imageSource a owl:Class ;
+    rdfs:label "imageSource"@fr ;
+    rdfs:subClassOf :image ;
+    rdfs:comment "Document à la source de l'établissement du textePoetique"@fr .
+
+:imageIllustration a owl:Class ;
+    rdfs:label "imageSource"@fr ;
+    rdfs:subClassOf :image ;
+    rdfs:comment "Document accompagnant le textePoetique"@fr .
+
+:imageReponse a owl:Class ;
+    rdfs:label "imageReponse"@fr ;
+    rdfs:subClassOf :image ;
+    rdfs:comment "image qui engage un dialogue intertextuel ou intermédial avec le texte en lui répondant"@fr .
+
+:imageTemoin a owl:Class ;
+    rdfs:label "imageTemoin"@fr ;
+    rdfs:subClassOf :image ;
+    rdfs:comment "Capture d'écrant témoin de l'état du site lors du prélèvement"@fr .
+
+# Propriétés des données
+
+##textePoetique
+
+:aPourTitre rdf:type owl:DatatypeProperty ;
+    rdfs:domain :textePoetique ;
+    rdfs:range xsd:string ;
+    rdfs:label "a pour titre"@fr .
+
+:aPourIdentifiantTexte rdf:type owl:DatatypeProperty ;
+    rdfs:domain :textePoetique ;
+    rdfs:range xsd:string ;
+    rdfs:label "a pour identifiant"@fr .
+
+:aPourDateCreation rdf:type owl:DatatypeProperty ;
+    rdfs:domain :textePoetique ;
+    rdfs:range xsd:date ;
+    rdfs:label "a pour date creation"@fr .
+    
+## image
+
+:aPourIdentifiantImage a owl:DatatypeProperty ;
+    rdfs:domain :image ;
+    rdfs:range xsd:string ;
+    rdfs:label "a pour identifiant"@fr .
+
+:aPourLegende a owl:DatatypeProperty ;
+    rdfs:domain :image ;
+    rdfs:range xsd:string ;
+    rdfs:label "a pour légende"@fr .
+
+aPourSource a owl:DatatypeProperty ;
+    rdfs:domain :image ;
+    rdfs:range xsd:url ;
+    rdfs:label "a pour source"@fr .
+
+##referenceBibliographique
+
+:aPourIdentifiantBibl a owl:DatatypeProperty ;
+    rdfs:domain :referenceBibliographique ;
+    rdfs:range xsd:string ;
+    rdfs:label "a pour identifiant"@fr .
+
+## personnage
+
+:aPourTypePersonnage a owl:DatatypeProperty ;
+    rdfs:domain :personnage ;
+    rdfs:range xsd:string ;
+    rdfs:label "a pour type de personnage"@fr .
+
+# Relations
+
+:estCreePar rdf:type owl:ObjectProperty ;
+    rdfs:domain :textePoetique ;
+    rdfs:range :auteur ;
+    rdfs:label "est créé par" ;
+    owl:inverseOf :cree .
+
+:estSourceDe a owl:ObjectProperty ;
+    rdfs:domain :imageSource ;
+    rdfs:range :textePoetique ;
+    rdfs:label "est source de"@fr .
+
+:faitReferenceA rdf:type owl:ObjectProperty ;
+    rdfs:domain :textePoetique ;
+    rdfs:range :personnage ;
+    rdfs:label "fait référence à" .
+
+:estAssocieA rdf:type owl:ObjectProperty ;
+    rdfs:domain :textePoetique ;
+    rdfs:range :image ;
+    rdfs:label "est associé à" .
+
+:aPourReference rdf:type owl:ObjectProperty ;
+    rdfs:domain :textePoetique ;
+    rdfs:range :referenceBibliographique ;
+    rdfs:label "a pour référence" .
+
+:estDocumenteTechniquementpar a owl:ObjectProperty ;
+    rdfs:domain :textePoetique ;
+    rdfs:range :codeSource ;
+    rdfs:label "est documenté techniquement par"@fr .
+
+## Relations pour chaque type d'image
+
+:estDiffusePar a owl:ObjectProperty ;
+    rdfs:domain :textePoetique ;
+    rdfs:range :imageDiffusion ;
+    rdfs:label "est diffusé par"@fr ;
+    rdfs:subPropertyOf :estAssocieA .
+
+:estDocumentePar a owl:ObjectProperty ;
+    rdfs:domain :textePoetique ;
+    rdfs:range :imageTemoin ;
+    rdfs:label "est documenté par"@fr ;
+    rdfs:subPropertyOf :estAssocieA .
+
+:repondA a owl:ObjectProperty ;
+    rdfs:domain :imageReponse ;
+    rdfs:range :textePoetique ;
+    rdfs:label "répond à"@fr ;
+    owl:inverseOf :aPourReponse .
+
+# Texte exemple
+
+:txt_001 rdfs:type :textePoetique ;
+    :aPourIdentifiant "txt_001" ;
+    :aPourTitre "kassandra rates her discomfort on a scale from 1-10" ;
+    :aPourDateCreation "2023-01-01"^^xsd:date ;
+    :estCreePar :aut_Clark ;
+    :faitReferenceA :pers_CASSANDRE ;
+    :aPourReference :ref_clark_2025 .

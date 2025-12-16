@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Index des auteurs</title>
+            <author>Juliette Sokolov</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc xml:id="IndexAuteurs">
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="../../ontologie/monOntologie.ttl"/>
+            </application>
+         </appInfo>
+         <classDecl>
+            <taxonomy xml:id="author_types">
+               <category xml:id="author_poet_numerique">
+                  <catDesc>Poète uniquement connu dans le milieu numérique</catDesc>
+               </category>
+               <category xml:id="author_poet_imprime">
+                  <catDesc>Poète ayant une activité IRL</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <div type="index">
+            <head>Index des Auteurs</head>
+            <listPerson type="authors">
+
+               <person xml:id="WEE_Natalie" corresp="#author_poet_numerique, #author_poet_imprime">
+                  <persName>
+                     <surname>Wee</surname>
+                     <forename>Natalie</forename>
+                  </persName>
+                  <occupation>poète</occupation>
+                  <bibl corresp="IndexBibliographique.xml#Wee2015"/>
+                  <bibl corresp="IndexBibliographique.xml#Wee2016"/>
+                  <bibl corresp="IndexBibliographique.xml#Wee2021"/>
+               </person>
+
+               <person xml:id="VONRADICS_Clementine"
+                  corresp="#author_poet_numerique, #author_poet_imprime">
+                  <persName>
+                     <surname>Von Radics</surname>
+                     <forename>Clementine</forename>
+                  </persName>
+                  <occupation>poète, performeur</occupation>
+                  <bibl corresp="IndexBibliographique.xml#Von_Radics2016"/>
+               </person>
+
+               <person xml:id="MULROY_TaraMae" corresp="#author_poet_numerique">
+                  <persName>
+                     <surname>Mulroy</surname>
+                     <forename>Tara Mae</forename>
+                  </persName>
+                  <occupation>poète</occupation>
+                  <bibl corresp="IndexBibliographique.xml#Mulroy2015"/>
+                  <bibl corresp="IndexBibliographique.xml#Mulroy2018"/>
+               </person>
+
+               <person xml:id="THECASSANDRIAD" corresp="#author_poet_numerique">
+                  <persName>
+                     <name>@the-cassandriad</name>
+                  </persName>
+                  <occupation>poète</occupation>
+                  <bibl corresp="IndexBibliographique.xml#the-cassandriad2025"/>
+               </person>
+
+               <person xml:id="CLARK_AlexPeery" corresp="#author_poet_numerique">
+                  <persName>
+                     <surname>clark</surname>
+                     <forename>alex peery</forename>
+                     <name>two.bees.poetry</name>
+                  </persName>
+                  <occupation>poète</occupation>
+                  <bibl corresp="IndexBibliographique.xml#Clark2025"/>
+               </person>
+
+               <person xml:id="I.M.A" corresp="#author_poet_numerique">
+                  <persName>
+                     <name>i.m.a.</name>
+                  </persName>
+                  <occupation>poète</occupation>
+                  <bibl corresp="IndexBibliographique.xml#i.m.a."/>
+               </person>
+
+               <person xml:id="HCR" corresp="#author_poet_numerique">
+                  <persName>
+                     <name>h.c.r.</name>
+                  </persName>
+                  <occupation>poète</occupation>
+                  <bibl corresp="IndexBibliographique.xml#H.C.R.2014"/>
+               </person>
+
+               <person xml:id="STARK_Natasza" corresp="#author_poet_numerique">
+                  <persName>
+                     <name>natasza stark</name>
+                  </persName>
+                  <occupation>poète</occupation>
+                  <bibl corresp="IndexBibliographique.xml#Stark2015"/>
+               </person>
+
+               <person xml:id="YEAHYEAHBEBIS1" corresp="#author_poet_numerique">
+                  <persName>
+                     <name>@yeahyeahbeebis1</name>
+                  </persName>
+                  <occupation>quizz maker</occupation>
+                  <bibl corresp="IndexBibliographique.xml#yeahyeahbeebis1"/>
+               </person>
+
+               <person xml:id="BSC" corresp="#author_poet_numerique">
+                  <persName>
+                     <name>BSC</name>
+                  </persName>
+                  <occupation>poète</occupation>
+                  <bibl corresp="IndexBibliographique.xml#BSC2014"/>
+               </person>
+
+            </listPerson>
+         </div>
+      </body>
+   </text>
+
+</TEI>

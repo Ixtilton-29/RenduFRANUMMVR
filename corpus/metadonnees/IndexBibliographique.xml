@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Index bibliographique</title>
+                <author>Juliette Sokolov</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc xml:id="IndexAuteurs">
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application version="1.0" ident="Ontology">
+                    <label>Ontologie du projet</label>
+                    <ptr target="../../ontologie/monOntologie.ttl"/>
+                </application>
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+                <biblStruct type="blogPost" xml:id="Clark2025"
+                    corresp="http://zotero.org/users/12795118/items/3FDW8GZ3">
+                    <monogr>
+                        <title level="m">kassandra rates her discomfort on a scale from 1-10</title>
+                        <author>
+                            <forename>Alex Peery</forename>
+                            <surname>Clark</surname>
+                        </author>
+                        <imprint>
+                            <date>2025</date>
+                            <note type="accessed">2025-11-07T19:30:56Z</note>
+                            <note type="url"
+                                >https://www.tumblr.com/two-bees-poetry/775512365021216768/kassandra-rates-her-discomfort-on-a-scale-from?source=share</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="blogPost" xml:id="the-cassandriad2025"
+                    corresp="http://zotero.org/users/12795118/items/JPL7S7QW">
+                    <monogr>
+                        <title level="m">schismos.</title>
+                        <author>
+                            <name>@the-cassandriad</name>
+                        </author>
+                        <imprint>
+                            <date>2025</date>
+                            <note type="accessed">2025-11-07T19:18:17Z</note>
+                            <note type="url"
+                                >https://www.tumblr.com/the-cassandriad/773106839285104640/ive-not-written-poetry-in-years-im-more-of-a</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="blogPost" xml:id="Wee2015"
+                    corresp="http://zotero.org/users/12795118/items/ECDXVSGI">
+                    <monogr>
+                        <title level="m">Letters from Persephone (version antérieure)</title>
+                        <author>
+                            <forename>Natalie</forename>
+                            <surname>Wee</surname>
+                        </author>
+                        <imprint>
+                            <date>2015</date>
+                            <note type="accessed">2024-07-26</note>
+                            <note type="url"
+                                >https://mythpoetrynet.tumblr.com/post/131176978553/i-wasnt-afraid-mama-i-was-bored-i-was</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="blogPost" xml:id="Wee2016"
+                    corresp="http://zotero.org/users/12795118/items/MB9IXQDK">
+                    <monogr>
+                        <title level="m">Letters from Persephone</title>
+                        <author>
+                            <forename>Natalie</forename>
+                            <surname>Wee</surname>
+                        </author>
+                        <imprint>
+                            <date>2016</date>
+                            <note type="accessed">2024-07-24</note>
+                            <note type="url"
+                                >https://natalieweepoetry.tumblr.com/post/141101174331/letters-from-persephone-by-natalie-wee</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="bookSection" xml:id="Wee2021"
+                    corresp="http://zotero.org/users/12795118/items/WQ3K7NQB">
+                    <analytic>
+                        <title level="a">Letters from Persephone</title>
+                        <author>
+                            <forename>Natalie</forename>
+                            <surname>Wee</surname>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title level="m">Our bodies and other fine machines,</title>
+                        <edition>San Press at Teh People Studio</edition>
+                        <imprint>
+                            <date>2021</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="blogPost" xml:id="Von_Radics2016"
+                    corresp="http://zotero.org/users/12795118/items/KF3VG5L9">
+                    <monogr>
+                        <title level="m">Courtney Love Prays To Oregon</title>
+                        <author>
+                            <forename>Clementine</forename>
+                            <surname>Von Radics</surname>
+                        </author>
+                        <imprint>
+                            <date>2016</date>
+                            <note type="accessed">2024-07-24T17:55:36Z</note>
+                            <note type="url"
+                                >https://www.tumblr.com/clementinevonradics/145084715334/this-is-the-house-that-built-me-and-im-gonna?source=share</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="blogPost" xml:id="Mulroy2015"
+                    corresp="http://zotero.org/users/12795118/items/IIM3GK2X">
+                    <monogr>
+                        <title level="m">Persephone writes to her mother</title>
+                        <author>
+                            <forename>Tara Mae</forename>
+                            <surname>Mulroy</surname>
+                        </author>
+                        <imprint>
+                            <date>2015</date>
+                            <note type="accessed">2024-07-24</note>
+                            <note type="url"
+                                >https://allyourprettywords.tumblr.com/post/121778830283/persephone-writes-to-her-mother-tara-mae-mulroy</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="bookSection" xml:id="Mulroy2018"
+                    corresp="http://zotero.org/users/12795118/items/PNCEYCDF">
+                    <analytic>
+                        <title level="a">Persephone writes to her mother</title>
+                        <author>
+                            <forename>Tara Mae</forename>
+                            <surname>Mulroy</surname>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title level="m">Swallow</title>
+                        <edition>Kelsay Books</edition>
+                        <imprint>
+                            <date>2018</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="blogPost" xml:id="i.m.a."
+                    corresp="http://zotero.org/users/12795118/items/WDDRCH2F">
+                    <monogr>
+                        <title level="m">(!!!) she didn't want for this…</title>
+                        <author>
+                            <name>(i.m.a.)</name>
+                        </author>
+                        <imprint>
+                            <date/>
+                            <note type="accessed">2024-07-22</note>
+                            <note type="url"
+                                >https://metvmorqhoses.tumblr.com/post/131011453208/she-didnt-want-for-this-but-they-dragged</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="webpage" xml:id="yeahyeahbeebis1"
+                    corresp="http://zotero.org/users/12795118/items/MHG47QWG">
+                    <analytic>
+                        <title level="a">the labyrinth</title>
+                        <author>
+                            <name>yeahyeahbeebis1</name>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <imprint>
+                            <date/>
+                            <note type="accessed">2025-09-30T21:12:40Z</note>
+                            <note type="url">https://uquiz.com/quiz/wb7HTY/the-labyrinth</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+                <biblStruct type="blogPost" xml:id="H.C.R.2014"
+                    corresp="http://zotero.org/users/12795118/items/RQU7WLXR">
+                    <monogr>
+                        <title level="m">keep spinning the thread, ariadne</title>
+                        <author>
+                            <name>H.C.R.</name>
+                        </author>
+                        <imprint>
+                            <date>2014</date>
+                            <note type="accessed">2025-05-30T13:20:12Z</note>
+                            <note type="url"
+                                >https://mythpoetrynet.tumblr.com/post/103324792449/you-spin-the-thread-around-your-finger-and-with</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="blogPost" xml:id="BSC2014"
+                    corresp="http://zotero.org/users/12795118/items/UT8H6M6K">
+                    <monogr>
+                        <title level="m">text messages from those descended from gods pt. 1</title>
+                        <title type="short">sext</title>
+                        <author>
+                            <name>BSC</name>
+                        </author>
+                        <imprint>
+                            <date>2014</date>
+                            <note type="accessed">2025-05-30T13:17:40Z</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct type="blogPost" xml:id="Stark2015"
+                    corresp="http://zotero.org/users/12795118/items/66KC6H2F">
+                    <monogr>
+                        <title level="m">blood string, fibrous gut</title>
+                        <author>
+                            <forename>Natasza</forename>
+                            <surname>Stark</surname>
+                        </author>
+                        <imprint>
+                            <date>2015</date>
+                            <note type="accessed">2025-05-30T12:55:16Z</note>
+                            <note type="url"
+                                >https://savitris.tumblr.com/post/133342403112/there-is-a-monster-in-me-too-i-feel-it-a</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </listBibl>
+
+        </body>
+    </text>
+</TEI>

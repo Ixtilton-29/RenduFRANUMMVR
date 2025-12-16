@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>the labyrinth</title>
+            <author corresp="../metadonnees/IndexAuteurs.xml#YEAHYEAHBEBIS1"
+               >@yeahyeahbeebis1</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc xml:id="textePoetiqueTheLabyrinth">
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#yeahyeahbeebis1"/>
+            <listObject>
+               <!-- Renseigner tous les documents associés témoignant de la diffusion ou renseignant la source d'un poème  -->
+               <object type="imageTémoin">
+                  <objectIdentifier>
+                     <objectName>Capture d'écran du poème lors de sa collecte</objectName>
+                     <idno corresp="../images/imagesTemoins/temoinTheLabyrinth.png"/>
+                  </objectIdentifier>
+               </object>
+               <object type="codeSource">
+                  <objectIdentifier>
+                     <objectName>Code Source</objectName>
+                     <idno corresp="../codeSource/theLabyrintheCodeSource.html"/>
+                  </objectIdentifier>
+               </object>
+            </listObject>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="../../ontologie/monOntologie.ttl"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head> the labyrinth </head>
+
+         <div xml:id="quizzIntroduction" next="#Q1">
+            <div type="baniere_trending">
+               <link target="#test31 https://uquiz.com/quiz/aO7gYJ?ref=trending_quiz_bar"/>
+               <p xml:id="test31">TRENDING NOW - what genre of person i hate are you?⋆˚꩜｡</p>
+            </div>
+            <div>
+               <p>Personality Quiz</p>
+               <lb/>
+               <!-- Est-ce que cela fait partie du poeme ? Comment traiter cet élément ?-->
+            </div>
+            <div>
+               <p>Quiz introduction</p>
+               <note>Les deux éléments textuels ci-dessus ont été traités dans l'encodage comme des
+                  paragraphes, ce qui nous parait insatisfaisant, le premier contenant une
+                  information générique permettant de typer cet objet digital, l'autre étant un
+                  titre de section. C'est un point que nous chercherons à améliorer dans d'éventuels
+                  développement futurs.</note>
+               <lb/>
+               <p>a <persName corresp="../metadonnees/IndexPersonnages.xml#MINOTAURE"
+                     >minotaur</persName> more than justifies the existence of the labyrinth. (cw:
+                  mentions of death, dereality, depersonalization, and family. based off of the
+                  wizard maze and <name>christopher manson's the maze</name>.)</p>
+               <lb/>
+               <!-- insérer dans le balisage des liens vers les references -->
+            </div>
+            <div>
+               <p>Enter Your Name</p>
+               <lb/>
+               <figure type="interface_ecriture"/>
+               <lb/>
+               <!-- Les interfaces d'écritures sont juste des cases où ce qu'on écrit disparait. 
+                  Pas de compteur, l'ordinateur ne garde rien en mémoire. Quel est désormais le sens d'écrire dans ces interfaces ? -->
+               <note>L'ordinateur ne garde pas en mémoire les choix de l'utilisateur. Cette
+                  fonctionnalité est absente du code. En effet, nous n'avons pas eu accès à la
+                  structure logique du test original encodé sur la plateforme Uquiz. Plutôt que de
+                  réinventer une structure, les éléments interractifs (cases à cocher et interfaces
+                  d'écritures) sont des éléments vides, des espaces d'oubli. Nous reviendrons sur ce
+                  point.</note>
+            </div>
+            <!-- Ici, en revanche les titres des liens font partie non pas du poème en tant que tel, mais sont des éléments contextuels parlant 
+                  (rigolo) pour mieux le percevoir et le saisir. -->
+
+            <div type="distractions">
+               <div>
+                  <link target="#test1 https://uquiz.com/quiz/8LyU1N?Embed=False"/>
+                  <p xml:id="test1">Design your ideal date and I'll tell you your type</p>
+               </div>
+               <div>
+                  <link target="#test2 https://uquiz.com/quiz/L29sPL?Embed=False"/>
+                  <p xml:id="test2">Which marauders era girl are you?</p>
+               </div>
+               <div>
+                  <link target="#test3 https://uquiz.com/quiz/n4hXKm?Embed=False"/>
+                  <p xml:id="test3">what random thing that i've been interested in recently are
+                     you?</p>
+               </div>
+               <div>
+                  <link target="#test4 https://uquiz.com/quiz/HxmgtO?Embed=False"/>
+                  <p xml:id="test4">which spn coded character are you but i psychoanalyze your
+                     result</p>
+               </div>
+               <div>
+                  <link target="#test5 https://uquiz.com/quiz/UdeDBW?Embed=False"/>
+                  <p xml:id="test5">did you poop your pants??</p>
+               </div>
+               <div>
+                  <link target="#test6 https://uquiz.com/quiz/PqfIW9?Embed=False"/>
+                  <p xml:id="test6">which of the 16 main archetypes are you? (the answers are very
+                     personal)</p>
+               </div>
+               <div>
+                  <link target="#test7 https://uquiz.com/quiz/4LNChs?Embed=False"/>
+                  <p xml:id="test7">Which Dandy's World Toon Are You? (New characters coming!)</p>
+               </div>
+               <div>
+                  <link target="#test8 https://uquiz.com/quiz/IpNs6D?Embed=False"/>
+                  <p xml:id="test8">What is your spirit animal </p>
+               </div>
+               <div>
+                  <link target="#test9 https://uquiz.com/quiz/lTLfGX?Embed=False"/>
+                  <p xml:id="test9">What Stray Kids song are you based on random things</p>
+               </div>
+               <div>
+                  <link target="#test10 https://uquiz.com/quiz/ITCdGY?Embed=False"/>
+                  <p xml:id="test10">which parr portrayal are you?</p>
+               </div>
+               <div>
+                  <link target="#test11 https://uquiz.com/quiz/tgVEI6?Embed=False"/>
+                  <p xml:id="test11">Do you agree with my hear me outs?</p>
+               </div>
+               <div>
+                  <link target="#test12 https://uquiz.com/quiz/9XVbgZ?Embed=False"/>
+                  <p xml:id="test12">What name would Flavor Flav give you?</p>
+               </div>
+               <div>
+                  <link target="#test13 https://uquiz.com/quiz/Njobh3?Embed=False"/>
+                  <p xml:id="test13">Which Monster High friend group would you be in?</p>
+               </div>
+               <div>
+                  <link target="#test14 https://uquiz.com/quiz/Wwo4sO?Embed=False"/>
+                  <p xml:id="test14">You rate my OCD Obsessions and I assign you one</p>
+               </div>
+               <div>
+                  <link target="#test15 https://uquiz.com/quiz/kgJ82f?Embed=False"/>
+                  <p xml:id="test15">Which hxh character are you??</p>
+               </div>
+               <div>
+                  <link target="#test16 https://uquiz.com/quiz/as5OAX?Embed=False"/>
+                  <p xml:id="test16">which taylor swift album do you remind me of? </p>
+               </div>
+               <div>
+                  <link target="#test17 https://uquiz.com/quiz/xTG2s0?Embed=False"/>
+                  <p xml:id="test17">what is your role in someone else's story? -:-</p>
+               </div>
+               <div>
+                  <link target="#test18 https://uquiz.com/quiz/3ewVc3?Embed=False"/>
+                  <p xml:id="test18">are you racist? </p>
+               </div>
+               <div>
+                  <link target="#test19 https://uquiz.com/quiz/RKJh1J?Embed=False"/>
+                  <p xml:id="test19">Which Monster High Character Are you?</p>
+               </div>
+               <div>
+                  <link target="#test20 https://uquiz.com/quiz/6f1sKc?Embed=False"/>
+                  <p xml:id="test20">would I smash or pass u?? (hard to get)</p>
+               </div>
+               <div>
+                  <link target="#test21 https://uquiz.com/quiz/7jTxnS?Embed=False"/>
+                  <p xml:id="test21">can u fix nate jacobs? </p>
+               </div>
+               <div>
+                  <link target="#test22 https://uquiz.com/quiz/8nzAm5?Embed=False"/>
+                  <p xml:id="test22">What type of water are you??</p>
+               </div>
+               <div>
+                  <link target="#test23 https://uquiz.com/quiz/4vy9nY?Embed=False"/>
+                  <p xml:id="test23">R u my type (im a girl btw)</p>
+               </div>
+               <div>
+                  <link target="#test24 https://uquiz.com/quiz/aRkL84?Embed=False"/>
+                  <p xml:id="test24">Whats your sexuality? (for girls only</p>
+               </div>
+               <div>
+                  <link target="#test25 https://uquiz.com/quiz/4Ez5kZ?Embed=False"/>
+                  <p xml:id="test25">what is your aura based on your snl opinions</p>
+               </div>
+               <div>
+                  <link target="#test26 https://uquiz.com/quiz/u2fAvc?Embed=False"/>
+                  <p xml:id="test26">Build your Wizard's Tower and I will give you a robe </p>
+               </div>
+               <div>
+                  <link target="#test27 https://uquiz.com/quiz/1Be0rC?Embed=False"/>
+                  <p xml:id="test27">which child ballad are you?</p>
+               </div>
+               <div>
+                  <link target="#test28 https://uquiz.com/quiz/JupIbR?Embed=False"/>
+                  <p xml:id="test28">Which TXT member are you?</p>
+               </div>
+               <div>
+                  <link target="#test29 https://uquiz.com/quiz/VxVf5j?Embed=False"/>
+                  <p xml:id="test29">I hand you a gift. Open it and see what you get.</p>
+               </div>
+            </div>
+            <note><p>Un test Uquiz ne constitue pas un objet isolé, mais s'inscrit dans un
+                  écosystème d'hyperliens et de contenus similaires. L'expérience de lecture sur
+                  cette plateforme est essentiellement une expérience ludique : on ne s'y engage pas
+                  pour évaluer ses connaissances, mais pour perdre délibérément son temps.</p>
+               <p>Cette temporalité spécifique est rendue possible par la structure même de
+                  l'interface, qui multiplie les sollicitations par des liens vers d'autres quiz. Le
+                  choix éditorial a été de conserver, dans l'encodage et la réédition numérique, la
+                  matérialité de ces possibilités de distraction. Ainsi, le lecteur peut
+                  expérimenter ce mode de lecture particulier, caractérisé par la dispersion, la
+                  navigation aléatoire et l'errance hypertextuelle.</p>
+               <p>Les titres des quiz, hautement référentiels et souvent constellés de références
+                  culturelles ou d'« inside jokes », représentent également des témoins historiques
+                  et culturels significatifs. Ils peuvent susciter chez l'utilisateur un sentiment
+                  de jeu et de reconnaissance, ou au contraire une étrangeté pour celui qui n'en
+                  maîtrise pas les codes.</p>
+            </note>
+            <div type="publicite">
+               <lb/>
+               <p>ADVERTISEMENT</p>
+               <!--Que faire de ces pub ? Ce texte est celui qu'on obtient quand on copie colle la page. 
+                  Faut il choisir de reproduire les visuels, les images des pubs telles qu'on les a vues au moment où on les a prises ? 
+                  Figer le temps, prendre une photographie d'un instantanné ?  
+               Rallonger l'encodage, rendre compte de cette dépense de moyens matériaux et humain, du temps dépensé ? Uquiz est en endroit avec beaucoup de pub.
+               C'est un facteur important dans la construction de l'expérience de lecture
+               Idéalement je rêverait de mettre des pop-ups sur mon site, qui mélangeraient publicités réelles, ironiques, et autres poèmes du corpus, 
+               qui créraient une impression d'étrangeté incessante -->
+            </div>
+            <note> Les mentions publicitaires renvoient à un contexte numérique spécifique : celui
+               d'un web marchand où la gratuité des services s'échange contre l'exposition à un flux
+               constant de sollicitations commerciales. Elles documentent ainsi non seulement
+               l'économie sous-jacente de la plateforme Uquiz, mais aussi l'imaginaire d'un internet
+               saturé de publicités. Nous avons choisi de les traduire par une simple mention, une
+               trace, un indice de leur présence dans l'environnement natif du texte. </note>
+            <pb/>
+         </div>
+
+         <div xml:id="Q1" type="questions" n="1" next="#Q2">
+            <div type="baniere_trending">
+               <link target="#test30 https://uquiz.com/quiz/gmLwnR?ref=trending_quiz_bar"/>
+               <p xml:id="test30">TRENDING NOW : which one of my friends do i ship you with</p>
+            </div>
+            <note>Les bannières « trending » présentent une fonctionnalité de distractibilité
+               similaire à celle des autres liens, mais s'en distinguent par leur modalité
+               d'apparition dans l'interface originale. Dans la page web source, ces bannières
+               occupent une position dynamique en tête de page, défilant horizontalement dans un
+               espace dédié. Cette disposition les différencie des distractions placées en bas de
+               page, qui relèvent davantage d'une logique de suggestions complémentaires. Le choix
+               éditorial a donc été d'isoler ces bannières dans une catégorie distincte, afin de
+               préserver cette distinction spatiale et fonctionnelle. Toutefois, notre encodage
+               opère une transformation importante : ces bannières perdent leur caractère dynamique
+               pour devenir des éléments statiques. À l'instar des mentions publicitaires
+               précédemment rencontrées, elles constituent des traces, des indices témoignant d'un
+               état matériel antérieur du texte.</note>
+            <div>
+               <p>Question 1 of 80</p>
+            </div>
+            <div>
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626360122.jpg"
+                  />
+               </figure>
+            </div>
+            <div type="proposition">
+               <p>the door swings behind you, and you are here. the dusty room with the sheer
+                  curtains and the wine colored carpet. the floor is a mess, covered in items: a
+                  wrinkled map, covered in an unknown language; an umbrella with an "I" carved in
+                  the handle; a ball of twine, frayed at the end; a silver hand mirror with a
+                  hairline crack. which do you pick up?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the map</item>
+                  <item>the umbrella</item>
+                  <item>the twine</item>
+                  <item>the mirror</item>
+               </list>
+            </div>
+            <!-- Comment figurer le choix ? Reproduire l'infrastructure technique ? 
+                  Opacité du quizz, nous ne savons pas quels chemins mènent à quoi, nous n'avons pas accès au schéma prévu par le créateur. 
+                  Cela nous repousse du côté du lecteur, de l'expérience brute. 
+                  Il y a quelque chose d'aliénant, nous avons des choix sans le chemin technique, rien pour relier les choix à la décision 
+                  qui s'opère pour nous 
+                  
+                  <div>
+               <p>NEXT</p>  
+                  </div>
+                  
+Choix de modélisation ? Le bouton fait il partie du texte ? 
+Ou bien c'est le geste d avancer. Ainsi, on peut dire que l'interface graphique, le design du next n a aucun intéret. 
+Le mot en tant que tel ne fait pas partie du pointer, et ainsi il ne fauit pas encoder le mot next mais c est le geste de changer de page, c'est le lien qui doit être encodé. 
+On a donc choixi de virer le Next. Il est créé dans le XSL (voir commentaire du XSL)-->
+
+            <note>
+               <p>Ici s'est posé un problème de modélisation. Ce bouton « NEXT » constitue-t-il une
+                  composante intrinsèque du texte poétique, ou relève-t-il exclusivement de la
+                  couche d'interface ? C'est en effet moins le terme lexical « NEXT » lui-même qui
+                  importe que la fonction qu'il incarne : le geste de progression dans la séquence
+                  narrative. L'interface graphique, dans son design spécifique, ne présente pas
+                  d'intérêt sémiotique déterminant pour notre corpus ; c'est l'action de basculement
+                  entre les pages qui structure l'expérience de lecture. </p>
+               <p>Ainsi, le choix éditorial adopté a été de ne pas encoder le mot « NEXT » comme
+                  élément textuel, mais de modéliser la relation de succession par un lien
+                  structurel (rendu dans l'encodage par l'adjonction d'un identififiant xml à chaque
+                  question du test, ainsi qu'un lien par l'attribut @next vers l'identifiant de la
+                  question suivante). Le bouton est ensuite généré dynamiquement via la
+                  transformation XSLT. C'est ainsi l'étape suivante, celui de la transformation du
+                  fichier XML à l'aide d'une XSL Stylesheet qui permet de faire apparaitre le texte
+                  NEXT, texte dont la nature diffère de celle du corps du poème, qui a une fonction
+                  d'interface, de manifestation graphique d'un lien hypertextuel.</p>
+            </note>
+            <pb/>
+         </div>
+
+         <div xml:id="Q2" type="questions" n="2" next="#Q3">
+            <div type="baniere_trending">
+               <p xml:id="test32">TRENDING NOW - What candle scent are you?</p>
+               <link target="#test32 https://uquiz.com/quiz/3dSY87?ref=trending_quiz_bar"/>
+            </div>
+            <div>
+               <p>Question 2 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626360802.jpg"
+                  />
+               </figure>
+               <p> the next room is dark, the lamps burning incredibly low. you see yourself in the
+                  mirrors, and your appearance is warped. how do you see yourself? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i am me. that is all.</item>
+                  <item>i am beautiful. i am a god.</item>
+                  <item>i am grotesque. i am a beast.</item>
+                  <item>i am beautiful. i am a beast.</item>
+                  <item>i am an adventurer. the maze doesn't scare me.</item>
+               </list>
+            </div>
+            <note>
+               <p>L'édition de ce texte s'effectue sans accès à l'infrastructure logique
+                  sous-jacente, au « chemin décisionnel » qui, dans l'objet source, associe chaque
+                  choix utilisateur à une issue (une solution) spécifique. Cette absence soulève une
+                  question centrale : comment encoder une expérience de lecture dont la logique
+                  interne nous échappe ?</p>
+               <p>La première option explorée a été de conserver les éléments interactifs originaux
+                  : cases à cocher et interfaces d'écriture. Ces composantes sont essentielles à la
+                  construction de l'expérience spécifique du test, puisqu'elles sollicitent
+                  activement le geste du lecteur et matérialisent l'attente d'une réponse.
+                  Toutefois, notre édition ne mémorise pas les choix effectués ; nous avons renoncé
+                  à reconstituer une logique décisionnelle qui relèverait de la pure
+                  spéculation.</p>
+               <p>Cette approche préserve une caractéristique fondamentale du parcours labyrinthique
+                  : bien que le texte adopte la forme d'un quiz, sa structure semble déjouer toute
+                  stratégie herméneutique cohérente. Cette dimension n'est pas accessoire ; elle
+                  participe pleinement au projet esthétique de l'œuvre, qui simule l'expérience de
+                  la perdition dans un labyrinthe.</p>
+               <p>La longueur même du texte (quatre-vingt questions) contribue à cette sensation
+                  d'interminable, produisant un allongement temporel de la lecture et un délitement
+                  progressif de toute tentative de reconstruction du sens. L'encodage vise ainsi à
+                  transmettre non seulement le contenu textuel, mais également cette expérience
+                  d'errance et de déprise interprétative.</p>
+            </note>
+            <div>
+               <p>ADVERTISEMENT</p>
+            </div>
+            <!--  <div>
+               <p>NEXT</p>
+            </div> -->
+            <pb/>
+         </div>
+
+         <div xml:id="Q3" type="questions" n="3" next="#Q4">
+            <div type="baniere_trending">
+               <p xml:id="test33">TRENDING NOW - Which one of my guy friends would be in love with
+                  you?</p>
+               <link target="#test33 https://uquiz.com/quiz/5TKnLc?ref=trending_quiz_bar"/>
+            </div>
+            <div>
+               <p>Question 3 of 80 </p>
+            </div>
+            <note>
+               <p>L'une des caractéristiques distinctives de ce test, que nous avons délibérément
+                  préservée dans notre édition, concerne l'absence de tout dispositif qui
+                  permettrait un recul ou une vision d'ensemble sur la séquence des questions.</p>
+               <p>Contrairement à un questionnaire papier traditionnel, qui offrirait un sommaire,
+                  une pagination explicite ou la possibilité de feuilleter l'ensemble, cette
+                  interface impose une immersion totale. Le lecteur se trouve littéralement « le nez
+                  dans les questions », sans possibilité d'anticiper la suite, de revenir en arrière
+                  ou d'évaluer la progression globale.</p>
+               <p>Cette contrainte structurelle n'est pas neutre : elle oriente fondamentalement les
+                  modalités de lecture et d'interprétation.</p>
+               <p>Notre encodage respecte ainsi cette dimension immersive, renonçant à introduire
+                  des éléments de navigation globale qui trahiraient l'expérience originelle. Le
+                  lecteur de notre édition, comme l'utilisateur du test en ligne, doit avancer pas à
+                  pas sans recul sur son parcours.</p>
+            </note>
+
+            <div type="proposition">
+               <p>this room is beautiful, and empty. the dark blue walls wrap around you,
+                  suffocating, comforting. the paintings on the walls are familiar, you know them.
+                  who do you know? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>my mother. her tears glow in the fluorescent light. </item>
+                  <item>myself. the paintings are mirrors.</item>
+                  <item>my victims. their agony is grotesque.</item>
+                  <item>i don't know these people. what are you saying.</item>
+                  <item>the maze itself is watching me. i have to leave this room.</item>
+               </list>
+            </div>
+            <!--   <div>
+               <p>NEXT</p>
+            </div> -->
+            <pb/>
+         </div>
+
+         <div xml:id="Q4" type="questions" n="4" next="#Q5">
+            <div>
+               <p> Question 4 of 80 </p>
+            </div>
+            <div type="proposition">
+               <p>this room is utterly nonsensical. the writing on the wall shifts between readable
+                  and incomprehensible. a myriad of objects adorn the wall, and one of them catches
+                  your eye. it points you the right way. what is it?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the painting - it shows a faceless man, reaching towards the viewer. he is
+                     pointing to the door behind you.</item>
+                  <item>the coat on the hook - it was left behind another visitor. the right sleeve
+                     is shorter than the left.</item>
+                  <item>the news clipping - you've never heard of the town, the people, the crime.
+                     nobody is looking at the camera.</item>
+                  <item>the bouquet of flowers - they're fresh. someone was here before. you listen
+                     for footsteps.</item>
+                  <item>the taxidermy bull - its horns have words carved on it: "saints" and
+                     "sinners"</item>
+               </list>
+            </div>
+            <!--  <div>
+               <p>NEXT</p>
+            </div>  -->
+            <pb/>
+         </div>
+
+         <div xml:id="Q5" next="#Q6" type="questions" n="5">
+            <div>
+               <p> Question 5 of 80 </p>
+            </div>
+            <note> Ce timer n'est pas une fonctionnalité opératoire, il ne s'accompagne pas d'un
+               véritable décompte qui produirait un sentiment d'urgence. Nous avons conservé cette
+               indication comme reliquat de l'interface originelle, à l'instar des mentions
+               publicitaires. </note>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://uquiz.com/content/images/quiz/timer_icon.png"/>
+               </figure>
+               <p>This question is timed. You must answer within: 2 seconds</p>
+
+               <!-- Est-ce vraiment une proposition ? Ou bien une consigne ?  -->
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626362115.jpg"
+                  />
+               </figure>
+               <p>how does this make you feel? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>he is royalty. just like me. </item>
+                  <item>he is above all. just like me. </item>
+                  <item>he is terrible. just like me. </item>
+                  <item>he is free. just like me. </item>
+                  <item>i am afraid.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="6" xml:id="Q6" next="#Q7">
+            <div>
+               <p>Question 6 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>the next room is some kind of basement. the wooden beams shed dust, the paint
+                  cloths spill over onto the floor, and dust Motes encircle your head. which way do
+                  you go? </p>
+            </div>
+            <div>
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>left.</item>
+                  <item>right.</item>
+                  <item>straight.</item>
+                  <item>i double back.</item>
+                  <item>i sit down.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="7" xml:id="Q7" next="#Q8">
+            <div>
+               <p>Question 7 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626362906.jpg"
+                  />
+               </figure>
+               <p>as you approach the doorway, someone runs past, glances at you, their eyes
+                  widening, then runs faster, disappearing behind the wall. why?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instruction">
+                  <item>they're showing me the way out!</item>
+                  <item>they are afraid of what they don't understand</item>
+                  <item>they fear me for who they think i am.</item>
+                  <item>they fear me for who they know me to be.</item>
+                  <item>there's something behind me.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="8" xml:id="Q8" next="#Q9">
+            <div>
+               <p>Question 8 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626363506.jpg"
+                  />
+               </figure>
+               <p>who are you?who am i?</p>
+            </div>
+            <div type="consigne">
+               <p>Please type your answer (optional)</p>
+               <figure type="interface_ecriture"/>
+            </div>
+            <pb/>
+         </div>
+
+         <div xml:id="Q9" next="#Q10">
+            <div>
+               <p>Question 9 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626363668.jpg"
+                  />
+               </figure>
+               <p>the next area is an outdoor pathway, encircling a courtyard. you hear something.
+                  what is it? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>my mother is sobbing. is it my birthday?</item>
+                  <item>the hero's sword is dragged against the stone. is my end near?</item>
+                  <item>i can hear the birds. can i stop and listen?</item>
+                  <item>my father's laughter. is this home?</item>
+                  <item>no for real is there something here</item>
+               </list>
+            </div>
+            <!--  <div>
+               <link target="#question10 #question9" ana="next"> </link>
+               </div>
+               
+             Ici je me posais la question de la modélisation du NEXT. C'est un de mes essais abandonnés. 
+            -->
+            <pb/>
+         </div>
+
+         <div xml:id="Q10" next="#Q11">
+            <div>
+               <p>Question 10 of 80 </p>
+            </div>
+            <div type="proposition">
+               <p> the next entry way is pleasantly cool. the oaken floor is slick with polish, and
+                  the still life paintings glisten with ripe fruit. suddenly, an apple pops out from
+                  the painting. what do you do?</p>
+            </div>
+            <div type="consigne">
+               <p> Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i eat the apple </item>
+                  <item>i eat the apple</item>
+                  <item>i don't eat the apple</item>
+                  <item>i eat the apple</item>
+                  <item>i eat the apple</item>
+                  <item>i eat the apple</item>
+               </list>
+            </div>
+            <note><p>Cette séquence de propositions révèle une caractéristique structurelle
+                  essentielle du test : l'apparente défaillance ou l'ironisation de toute logique
+                  décisionnelle.</p>
+               <p>La répétition quasi-identique des options, à l'exception d'un unique item ici mis
+                  en valeur par sa différence, sape toute possibilité d'établir un système cohérent
+                  de correspondances entre choix utilisateur et progression narrative. Cette
+                  configuration vide ainsi les choix de l'utilisateur de leur potentiel stratégique.
+                  Le lecteur choisit, mais son choix semble déconnecté de toute trajectoire
+                  interprétative cohérente.</p>
+               <p>Cette esthétique de la répétition participe pleinement au projet labyrinthique de
+                  l'œuvre, où l'accumulation de décisions apparemment identiques mine la croyance en
+                  la possibilité même d'un « sens spécifique » gouvernant la navigation.</p>
+            </note>
+            <pb/>
+         </div>
+
+         <div type="questions" n="11" xml:id="Q11" next="#Q12">
+            <div>
+               <p> Question 11 of 80 </p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626364772.jpg"
+                  />
+               </figure>
+               <p>the next room is covered in paintings, realistic, baroque, and romantic. the walls
+                  are dark, and the smell is cloying. you look at a painting of a man pointing at
+                  the door to the left of you. the door is heavy and oaken, with a golden doorknob.
+                  when you look back at the painting, the man is pointing to the right. the a wide
+                  archway spills Into another room. which way do you go?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>left</item>
+                  <item>right</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="12" xml:id="Q12" next="#Q13">
+            <div>
+               <p> Question 12 of 80 </p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626365861.jpg"
+                  />
+               </figure>
+               <p>the room is clean and white, with strange, abstract paintings adorning the wall.
+                  the lights highlight different pieces in stark contrast. what does the painting
+                  make you think of?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the jilted lover that gave me my gift </item>
+                  <item>the hero that took my life </item>
+                  <item>the mourning father that built my home </item>
+                  <item>the old neighbor that dried my tears</item>
+                  <item>there's a noise behind me. i'm scared to turn around.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="13" xml:id="Q13" next="#Q14">
+            <div>
+               <p>Question 13 of 80 </p>
+            </div>
+            <div type="proposition">
+               <p>you hear a noise coming from behind you. you turn around to see the door behind
+                  you, the knob rattling. something is trying to get in. you walk over to try the
+                  door, but it is locked. the rattling stops.</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instruction">
+                  <item>i'm serious what is following me </item>
+                  <item>they'll be back</item>
+                  <item>they left for their own good </item>
+                  <item>they'll be back! </item>
+                  <item>ok</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="14" xml:id="Q14" next="#Q15">
+            <div>
+               <p>Question 14 of 80 </p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626367014.jpg"
+                  />
+               </figure>
+               <p> you delve further into the white room. what are you focusing on? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item> that statue. it looms over me.</item>
+                  <item>the paintings. they're beautiful.</item>
+                  <item>the walls. they're familiar.</item>
+                  <item>the locked door. i can't forget it.</item>
+                  <item>i can see the exit sign right there let me out rn</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="15" xml:id="Q15" next="#Q16">
+            <div>
+               <p>Question 15 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626373138.jpg"
+                  />
+               </figure>
+               <p>say something to her. </p>
+            </div>
+            <div type="consigne">
+               <p>Please type your answer (optional) </p>
+               <figure type="interface_ecriture"/>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="16" xml:id="Q16" next="#Q17">
+            <div>
+               <p>Question 16 of 80 </p>
+            </div>
+            <div type="proposition">
+               <p>you walk through a glass vestibule. the sun shines through the glass, warming you.
+                  you can see the endless expanse of the outside. freedom is so close and yet so
+                  far.</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i will be free soon </item>
+                  <item>please say i'll be free soon </item>
+                  <item>i need </item>
+                  <item>to hear you say it </item>
+                  <item>say i'll be free soon </item>
+                  <item>please</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="17" xml:id="Q17" next="#Q18">
+            <div>
+               <p>Question 17 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>you hear the noise again. what is it?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>my poor mother. </item>
+                  <item>my evil father.</item>
+                  <item>let me out of here. i will give anything</item>
+                  <item>let me go before it's too late</item>
+                  <item>they're going to lead me out!</item>
+                  <item>i knew there was something in here with me</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="18" xml:id="Q18" next="#Q19">
+            <div>
+               <p>Question 18 of 80 </p>
+            </div>
+            <div type="consigne">
+               <p>This question is timed. You must answer within: 9 seconds</p>
+            </div>
+            <div type="proposition">
+               <p>its right behind you. its presence is right there. what do you do?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instruction">
+                  <item>i run as fast as i can</item>
+                  <item>i curl up into a ball</item>
+                  <item>i turn around</item>
+                  <item>i freeze</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="19" xml:id="Q19" next="#Q20">
+            <div>
+               <p>Question 19 of 80</p>
+            </div>
+            <pb/>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626376167.jpg"
+                  />
+               </figure>
+               <p>you find yourself in a new room. you recognize this man clearly, and he fills you
+                  with an emotion. what is it? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>rage. he put me here.</item>
+                  <item>pride. i will succeed where he has failed. </item>
+                  <item>fear. he is my captor. </item>
+                  <item>love. i can't wait to see him again. </item>
+                  <item>did he just move? i swear he's breathing</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="20" xml:id="Q20" next="#Q21">
+            <div>
+               <p>Question 20 of 80 </p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626377243.jpg"
+                  />
+               </figure>
+               <p>you cross a balcony overlooking a pool. it's beautiful and cool. </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i will stay here for a while</item>
+                  <item>don't make me stay here</item>
+                  <item>please, i cannot be here for much longer</item>
+                  <item>the water is so beautiful, i could just go for a swim</item>
+                  <item>i want to keep moving. i'm sure that statue was moving.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="21" xml:id="Q21" next="#Q22">
+            <div>
+               <p> Question 21 of 80 </p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="../images/imagesIllustrations/illustrationTheLabyrinthQ_21.jpg"/>
+               </figure>
+               <p>the bodies of those who have met the monster in the maze.</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item> ....</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="22" xml:id="Q22" next="#Q23">
+            <div>
+               <p> Question 22 of 80 </p>
+            </div>
+            <div type="proposition">
+               <p> iNto the labyrinth we delve... </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="choix">
+                  <item>wait are we not going to discuss what just happened</item>
+                  <item>i've always been here.</item>
+                  <item>i will never leave.</item>
+                  <item>i want to see the monster!</item>
+                  <item>no but actually wtf was that last question</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="23" xml:id="Q23" next="#Q24">
+            <div>
+               <p>Question 23 of 80 </p>
+            </div>
+            <div type="proposition">
+               <p>in the next room you encounter an image of a crown, carved above a door. how does
+                  it make you feel? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instruction">
+                  <item>at home. my father was a king.</item>
+                  <item>indifferent. nobility has no impact on my life.</item>
+                  <item>saddened. the nobility made me what i am today.</item>
+                  <item>flattered. this door is meant for me.</item>
+                  <item>is this the door out.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="24" xml:id="Q24" next="#Q25">
+            <div>
+               <p> Question 24 of 80 </p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626378346.jpg"
+                  />
+               </figure>
+               <p>who is she. </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the jilted lover who knows the secret of the maze</item>
+                  <item>the enraged neighbor who knows she was outsmarted</item>
+                  <item>i want out</item>
+                  <item>the person who escaped the maze. i will catch her.</item>
+                  <item>the person who escaped the maze. i will follow her.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="25" xml:id="Q25" next="#Q26">
+            <div>
+               <p>Question 25 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>how are you feeling? asks the maze. how do you answer?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i want out of here, please </item>
+                  <item>i can't be here anymore </item>
+                  <item>i feel you consuming me, my very being </item>
+                  <item>please, i've played along long enough (no you haven't) </item>
+                  <item>i'm finally home </item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="26" xml:id="Q26" next="#Q27">
+            <div>
+               <p>Question 26 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>the next room has obviously had recent construction. a figure that looks
+                  disturbingly familiar points at the two half-made doors. one is labeled "saints"
+                  and one is labeled "sinners". </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>saints</item>
+                  <item>sinners</item>
+                  <item>this is too weird, let me out</item>
+                  <item>maybe we can catch up with the workmen if we keep moving</item>
+                  <item>maybe we can catch the workmen if we keep moving</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="27" xml:id="Q27" next="#Q28">
+            <div>
+               <p> Question 27 of 80 </p>
+            </div>
+            <div type="proposition">
+               <p>you enter a spacious room with many doors. a large bellhop bell rests in the
+                  middle, advertising assistance. you think that you must be getting close, seeing
+                  as there's so many doors. you are wrong.</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i ring the bell for assistance. (nothing happens)</item>
+                  <item>i enter one of the doors.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="28" xml:id="Q28" next="#Q29">
+            <div>
+               <p>Question 28 of 80 </p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626383940.jpg"
+                  />
+               </figure>
+               <p> you descend down the stairwell.</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>okay</item>
+                  <item>its pretty :)</item>
+                  <item>i see someone in one of those doors. they just closed it!</item>
+                  <item>i want out of this place</item>
+                  <item>please let me out</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="29" xml:id="Q29" next="#Q30">
+            <div>
+               <p> Question 29 of 80</p>
+            </div>
+            <div type="proposition">
+               <p> you're descending </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>down the stairs, yes :)</item>
+                  <item>i'll turn around then </item>
+                  <item>into madness </item>
+                  <item>into the maze </item>
+                  <item>please help me, somebody</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="30" xml:id="Q30" next="#Q31">
+            <div>
+               <p> Question 30 of 80 </p>
+            </div>
+            <div type="proposition">
+               <p>you're descending </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i know</item>
+                  <item>...</item>
+                  <item>please don't do this</item>
+                  <item>let me out of here</item>
+                  <item>i am desperately looking for the exit</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="31" xml:id="Q31" next="#Q32">
+            <div>
+               <p> Question 31 of 80 </p>
+            </div>
+            <div type="proposition">
+               <p> you're descending </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>help me</item>
+                  <item>please</item>
+                  <item>i don't think i'll ever leave</item>
+                  <item>please, ill do whatever it takes</item>
+                  <item>just let me out</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="32" xml:id="Q32" next="#Q33">
+            <div>
+               <p> Question 32 of 80 </p>
+            </div>
+            <div type="proposition">
+               <p> you're descending </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i'm serious </item>
+                  <item>i can't be stuck here forever </item>
+                  <item>it's eating me alive</item>
+                  <item>this maze</item>
+                  <item>this maze will be my grave </item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="33" xml:id="Q33" next="#Q34">
+            <div>
+               <p> Question 33 of 80 </p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626383940.jpg"
+                  />
+               </figure>
+               <p> intermission: your letter is o </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>thank you</item>
+                  <item>wait what</item>
+                  <item>where are the other letters?</item>
+                  <item>i didn't know we needed to be keeping track</item>
+                  <item>this is definitely a mind game</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="34" xml:id="Q34" next="#Q35">
+            <div>
+               <p>Question 34 of 80 </p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626385073.jpg"
+                  />
+               </figure>
+               <p>choose one</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>saturn</item>
+                  <item>earth</item>
+                  <item>mars</item>
+                  <item>jupiter</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+         <!-- A ce moment de l'encodage où je suis tentée d'écrire tel un moine copiste dans la marge "j'ai faim" je me rend compte de l'immense 
+         absurdité de ce quiz de cet encodage, de l'énormité des moyens déployés et pour quoi ? Je perd mon temps
+         toute lecture n est elle que perte de temps ? Le projet esthétique de cet objet est clairement de nous faire tourner en rond, 
+         c'est à dire, de nous faire perdre notre temps. Texte interractif, à penser foncièrement dans la performance du lecteur-->
+
+         <div type="questions" n="35" xml:id="Q35" next="#Q36">
+            <div>
+               <p>Question 35 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>you are halfway there. what is the holiest number?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>69</item>
+                  <item>111</item>
+                  <item>222</item>
+                  <item>7</item>
+                  <item>8</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="36" xml:id="Q36" next="#Q37">
+            <div>
+               <p>Question 36 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626386263.jpg"
+                  />
+               </figure>
+               <p>now for something entirely different. do you take a fig?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item><persName corresp="../metadonnees/IndexPersonnages.xml#PERSEPHONE"
+                        >persephone</persName> knew what was up</item>
+                  <item>i do not touch the figs</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="37" xml:id="Q37" next="#Q38">
+            <div>
+               <p>Question 37 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626386341.jpg"
+                  />
+               </figure>
+               <p>as you walk, the noise begins again. it is slightly distorted. what is the noise?
+               </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>muffled screaming. i deserve this.</item>
+                  <item>directions to get out. i deserve this.</item>
+                  <item>the thing from before - i have to leave</item>
+                  <item>the sobs of my mother. it was never my fault.</item>
+                  <item>i break into a cold sweat. i must get away.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="38" xml:id="Q38" next="#Q39">
+            <div>
+               <p>Question 38 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626386565.jpg"
+                  />
+               </figure>
+               <p>the walls decompose into grass and hedges, and the sound of birds tells you that
+                  you are outside of the maze. you do not know how long you've been here. what can
+                  you do?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i go left</item>
+                  <item>i go right</item>
+                  <item>i stare at the statue</item>
+                  <item>i listen to the birds - i may never hear them again</item>
+                  <item>i double back</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="39" xml:id="Q39" next="#Q40">
+            <div>
+               <p>Question 39 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626386997.jpg"
+                  />
+               </figure>
+               <p> she's here again.</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>my mother.</item>
+                  <item>my lover.</item>
+                  <item>my enemy.</item>
+                  <item>my friend.</item>
+                  <item>my guide.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="40" xml:id="Q40" next="#Q41">
+            <div>
+               <p>Question 40 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626387194.jpg"
+                  />
+               </figure>
+               <p>you pass by a statue. you see yourself. who is it?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item><persName corresp="../metadonnees/IndexPersonnages.xml#MEDUSE"
+                        >medusa</persName></item>
+                  <item><persName corresp="../metadonnees/IndexPersonnages.xml#MIDAS"
+                        >midas</persName></item>
+                  <item><persName corresp="../metadonnees/IndexPersonnages.xml#DEDALE"
+                        >daedalus</persName></item>
+                  <item><persName corresp="../metadonnees/IndexPersonnages.xml#ICARE"
+                        >icarus</persName></item>
+                  <item><persName corresp="../metadonnees/IndexPersonnages.xml#MINOTAURE">the
+                        minotaur</persName></item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="41" xml:id="Q41" next="#Q42">
+            <div>
+               <p>Question 41 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626388754.jpg"
+                  />
+               </figure>
+               <p>you are walking through the hall of mirrors. you catch a glimpse of yourself. what
+                  do you see? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>my wet, wild eyes. they're bloodshot and i'm afraid.</item>
+                  <item>my wings. i wish i could use them to get out of this place. </item>
+                  <item>my horns. this place is twisting me.</item>
+                  <item>my ethereal glow. i am the <persName>master of the maze</persName>.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="42" xml:id="Q42" next="#Q43">
+            <div>
+               <p>Question 42 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626389034.jpg"
+                  />
+               </figure>
+               <p>the hallways are getting narrower, filling with books and bookshelves. you are
+                  getting claustrophobic. one of the books falls to the floor. what passage does it
+                  show?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>"Farewell, brave <persName
+                        corresp="../metadonnees/IndexPersonnages.xml#THESEE"
+                     >Theseus</persName>."</item>
+                  <item>"...let the <persName
+                        corresp="../metadonnees/IndexPersonnages.xml#MINOTAURE">Minotaur</persName>
+                     devour me if he can!"</item>
+                  <item>"I will never leave Crete..."</item>
+                  <item>"I will never leave..."</item>
+                  <item>"...never..."</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="43" xml:id="Q43" next="#Q44">
+            <div>
+               <p>Question 43 of 80</p>
+            </div>
+            <div type="proposition">
+               <p> you see a door, tucked away behind the overflowing books and scrolls. you reach
+                  out to try the door, but it is locked. as you turn to walk away, the door handle
+                  rattles back.</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>it's back for me</item>
+                  <item>how much longer must i run?</item>
+                  <item>please</item>
+                  <item>i never asked for this</item>
+                  <item>i didn't want this</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="44" xml:id="Q44" next="#Q45">
+            <div>
+               <p>Question 44 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>T</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i don't care, the thing is behind me</item>
+                  <item>...okay</item>
+                  <item>U</item>
+                  <item>thank you. i understand.</item>
+                  <item>T to you too.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="45" xml:id="Q45" next="#Q46">
+            <div>
+               <p>Question 45 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>the beast has touched you. what does it feel like?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>someone reaching for the hem of my coat</item>
+                  <item>the blade of a hero's sword</item>
+                  <item>the thrashing of a wounded creature</item>
+                  <item>there is no beast, it is the maze itself</item>
+                  <item>i don't know, i'm too busy running</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="46" xml:id="Q46" next="#Q47">
+            <div>
+               <p>Question 46 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>you're descending</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+               <!-- dois je faire des rendus en italique pour cette partie ? 
+                  Dois je l'inscrire dans l'encodage comme une partie essentielle ? 
+                  Ou bien cela relève t il de la transformation?
+               Est-ce que le texte est le document encodé, le résultat après transforamtion? 
+               On pourrait voir le texte comme ce qui résulte d'une transformation matérielle d'un objet matériel (le XML original) 
+               qui rencontre le regard du lecteur dans la performance de la lecture-->
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>not this again</item>
+                  <item>please, anything else</item>
+                  <item>please, i can't sink deeper</item>
+                  <item>please, the beast will follow me</item>
+                  <item>please.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="47" xml:id="Q47" next="#Q48">
+            <div>
+               <p>Question 47 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>you're descending</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i attack the walls of the maze. they do not react</item>
+                  <item>i beg and plead and cry. nobody listens.</item>
+                  <item>i check over my shoulder for the beast. it hides, but i know it's
+                     there.</item>
+                  <item>i descend.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+
+         <div type="questions" n="48" xml:id="Q48" next="#Q49">
+            <div>
+               <p>Question 48 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>you're descending </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>as above</item>
+                  <item>so below</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="49" xml:id="Q49" next="#Q50">
+            <div>
+               <p>Question 49 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>as above, so below</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i'm descending</item>
+                  <item>i'm descending</item>
+                  <item>i'm descending</item>
+                  <item>i'm descending</item>
+                  <item>i'm descending</item>
+               </list>
+               <!-- non seulment nous n'avons pas le schéma technique mais que faire de ces questions? 
+               remettre de l'aléatoire ? est-ce que la pensée de l'auteur fait sens ? Est-ce qu'on ne s'en fout pas ?
+               On a déjà oublié les questions auxquelles on a répondu de part la longuer du texte
+               ce n'est pas un test papier, on ne peut pas revenir sur ses choix. -->
+            </div>
+            <note>Nouvel exemple de cette estéhtique de la récurrences, qui semble détruire toute
+               logique, qui impose un aléatoire dans le résultat final. On a ici un nouvel exmple de
+               la récurrence des propositions qui mine toute logique décisionnelle, instaurant un
+               aléatoire structurel qui vide les choix de leur sens. </note>
+
+            <pb/>
+         </div>
+
+         <div type="questions" n="50" xml:id="Q50" next="#Q51">
+            <div>
+               <p>Question 50 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>what do you crave?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>power</item>
+                  <item>peace</item>
+                  <item>joy</item>
+                  <item>the blood of the hero</item>
+                  <item>let me out of the maze</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="51" xml:id="Q51" next="#Q52">
+            <div>
+               <p>Question 51 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>what do you crave?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>power</item>
+                  <item>peace</item>
+                  <item>the blood of the hero</item>
+                  <item>let me leave the maze</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="52" xml:id="Q52" next="#Q53">
+            <div>
+               <p>Question 52 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>what do you crave?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>power</item>
+                  <item>the blood of the hero</item>
+                  <item>please..let me go..</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="53" xml:id="Q53" next="#Q54">
+            <div>
+               <p>Question 53 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>what do you crave?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the blood of the hero</item>
+                  <item>please....let me out..</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="54" xml:id="Q54" next="#Q55">
+            <div>
+               <p>Question 54 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>what do you crave?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the blood of the hero</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="55" xml:id="Q55" next="#Q56">
+            <div>
+               <p>Question 55 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>what do you crave?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the blood of the hero</item>
+                  <item>the blood of the hero</item>
+                  <item>the blood of the hero</item>
+                  <item>the blood of the hero</item>
+                  <item>the blood of the hero</item>
+                  <!-- nouvelle question créatrice de hasard -->
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="56" xml:id="Q56" next="#Q57">
+            <div>
+               <p>Question 56 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>who are you, really?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the beast of the maze</item>
+                  <item>the hero</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="57" xml:id="Q57" next="#Q58">
+            <div>
+               <p>Question 57 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626391547.jpg"
+                  />
+               </figure>
+               <p>write something for the next visitor, for the hero, or for the beast.</p>
+            </div>
+            <div type="consigne">
+               <p>Please type your answer (optional) </p>
+               <figure type="interface_ecriture"/>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="58" xml:id="Q58" next="#Q59">
+            <div>
+               <p>Question 58 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>the next room is covered in a thin layer of dust, the smell of old fabric
+                  smothering the room. a phonograph sits in the middle of the room, playing a song
+                  that makes you sad. why? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the monster will find me</item>
+                  <item>it reminds me that i cannot survive here forever</item>
+                  <item>i am the monster</item>
+                  <item>who was here before me? what happened?</item>
+                  <item>i am the guardian of the maze</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="59" xml:id="Q59" next="#Q60">
+            <div>
+               <p>Question 59 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>how long was i here? am i still here?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>let me out</item>
+                  <item>rip to you but i'm different</item>
+                  <item>i will tear you apart. if you are still here, you must leave.</item>
+                  <item>i'm sorry. i'm so so sorry.</item>
+                  <item>i am as you are</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+
+         <div type="questions" n="60" xml:id="Q60" next="#Q61">
+            <div>
+               <p>Question 60 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>how long has it been?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>does it matter?</item>
+                  <item>not too long.</item>
+                  <item>i'll never leave this place</item>
+                  <item>years. weeks, even.</item>
+                  <item>too long. far too long.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="61" xml:id="Q61" next="#Q62">
+            <div>
+               <p>Question 61 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <caption>url="https://youtu.be/jToJ4Z3g6gQ" </caption>
+               </figure>
+               <p>time for a quiz! what is the name of the dog?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>goldie</item>
+                  <item>dewdrop</item>
+                  <item>sunbeam</item>
+                  <item>buttercup</item>
+                  <item>raindrop</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+
+         <div type="questions" n="62" xml:id="Q62" next="#Q63">
+            <div>
+               <p>Question 62 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>are you ever getting out of here?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>yes. of course</item>
+                  <item>no. the maze is consuming me</item>
+                  <!-- so does this task -->
+                  <item>no. i belong here. i was born for the maze.</item>
+                  <item>the maze belongs to me.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+
+         <div type="questions" n="63" xml:id="Q63" next="#Q64">
+            <div>
+               <p>Question 63 of 80</p>
+            </div>
+            <div type="proposition">
+               <p> are you ever getting out of here? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1 </p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>yes. of course.</item>
+                  <item>no. i belong here. the maze belongs to me.</item>
+                  <item>the maze belongs to me</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+
+         <div type="questions" n="64" xml:id="Q64" next="#Q65">
+            <div>
+               <p>Question 64 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>you are never getting out of here?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the maze was born for me.</item>
+                  <item>i was made for the maze.</item>
+                  <item>i was never not here</item>
+                  <item>the maze and i are one and the same.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="65" xml:id="Q65" next="#Q66">
+            <div>
+               <p>Question 65 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>are you ever getting out of here? </p>
+            </div>
+            <div type="consigne"> </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>Answers, please choose 1</item>
+                  <item>....</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="66" xml:id="Q66" next="#Q67">
+            <div>
+               <p>Question 66 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>are yoU ever getting out of here?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>no</item>
+                  <item>no</item>
+                  <item>no</item>
+                  <item>no</item>
+                  <item>no</item>
+                  <item>no</item>
+                  <item>no</item>
+                  <!-- même si j'avais accès a l'infrastructure sous tendant le test que pourrais je en faire ? 
+                     Pas de logique, ce genre de questions rend impossible toute stratégie de la part de la personne qui fait le test, 
+                     elle réinjecte du hasard -->
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="67" xml:id="Q67" next="#Q68">
+            <div>
+               <p>Question 67 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626398399.jpg"
+                  />
+               </figure>
+               <p>you pass by a statue. you see yourself. who is it?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the beast of the maze</item>
+                  <item>the master of the maze</item>
+                  <item>the god of the maze</item>
+                  <item>the hero of the maze</item>
+                  <item>the ghost of the maze</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="68" xml:id="Q68" next="#Q69">
+            <div>
+               <p>Question 68 of 80</p>
+            </div>
+            <div type="proposition">
+               <p> who are you? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the master of the maze.</item>
+                  <item>the master of all.</item>
+                  <item>the animal that lives in the maze.</item>
+                  <item>the hero fighting the beast.</item>
+                  <item>the victim of the beast.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="69" xml:id="Q69" next="#Q70">
+            <div>
+               <p>Question 69 of 80</p>
+            </div>
+            <div type="proposition">
+               <p> who are you? </p>
+            </div>
+            <div type="consigne">
+               <p>Please type your answer (optional) </p>
+               <figure type="interface_ecriture"/>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="70" xml:id="Q70" next="#Q71">
+            <div>
+               <p>Question 70 of 80</p>
+            </div>
+            <div type="proposition">
+               <p> your shoulders are rolling forward, atlas. what is weighing you down?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>we never saw where the beast went.</item>
+                  <item>nothing. i'm on top of the world.</item>
+                  <item>i'm being consumed in the maze.</item>
+                  <item>i'm losing myself in the maze.</item>
+                  <item>i know why i'm here.</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="71" xml:id="Q71" next="#Q72">
+            <div>
+               <p>Question 71 of 80</p>
+            </div>
+            <div type="proposition">
+               <p> who are your parents? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instruction">
+                  <item>the king, the lowborn</item>
+                  <item>the beast, the hero</item>
+                  <item>the hero, the princess</item>
+                  <item>the beast, the maze</item>
+                  <item>the king, the queen</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="72" xml:id="Q72" next="#Q73">
+            <div>
+               <p>Question 72 of 80</p>
+            </div>
+            <div type="proposition">
+               <p> who is your enemy? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the beast</item>
+                  <item>the hero</item>
+                  <item>the maze master</item>
+                  <item>myself</item>
+                  <item>my father</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="73" xml:id="Q73" next="#Q74">
+            <div>
+               <p>Question 73 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>who are you running from?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the hero</item>
+                  <item>the beast</item>
+                  <item>those who envy me</item>
+                  <item>myself</item>
+                  <item>failure</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="74" xml:id="Q74" next="#Q75">
+            <div>
+               <p>Question 74 of 80</p>
+            </div>
+            <div type="proposition">
+               <p> who brings about your downfall? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the princess</item>
+                  <item>the hero</item>
+                  <item>the beast</item>
+                  <item>my pride</item>
+                  <item>my doubt</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="75" xml:id="Q75" next="#Q76">
+            <div>
+               <p>Question 75 of 80</p>
+            </div>
+            <div type="proposition">
+               <p> what was it?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>something simple</item>
+                  <item>something obvious</item>
+                  <item>something subtle</item>
+                  <item>something underneath</item>
+                  <item>something behind me</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="76" xml:id="Q76" next="#Q77">
+            <div>
+               <p>Question 76 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>who are you?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the jilted princess</item>
+                  <item>the <persName>boy with wax wings</persName></item>
+                  <item>the vengeful king</item>
+                  <item>the grieving father</item>
+                  <item>the <persName>unloved monster</persName></item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="77" xml:id="Q77" next="#Q78">
+            <div>
+               <p>Question 77 of 80</p>
+            </div>
+            <div type="proposition">
+               <p> who aRe you?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i understand</item>
+                  <item>i can't accept this</item>
+                  <item>the beast approaches</item>
+                  <item>it's not true. it can't be</item>
+                  <item>the mystery eludes me</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="78" xml:id="Q78" next="#Q79">
+            <div>
+               <p>Question 78 of 80</p>
+            </div>
+            <div type="proposition">
+               <figure>
+                  <graphic url="https://img2.uquiz.com/content/images/question_media/1626400008.jpg"
+                  />
+               </figure>
+               <p>you are leaving the maze</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the noise has stopped</item>
+                  <item>do i deserve to leave?</item>
+                  <item>about time</item>
+                  <item>i knew i'd make it eventually</item>
+                  <item>....</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="79" xml:id="Q79" next="#Q80">
+            <div>
+               <p>Question 79 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>who are you?</p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>the beast</item>
+                  <item>the hero</item>
+               </list>
+            </div>
+            <pb/>
+         </div>
+
+         <div type="questions" n="80" xml:id="Q80" next="#S1">
+            <div>
+               <p>Question 80 of 80</p>
+            </div>
+            <div type="proposition">
+               <p>80 is the number of infinity. it combines two 40's, a holy number. 8 is one more
+                  than 7, another holy number. you find the door. are you ready? </p>
+            </div>
+            <div type="consigne">
+               <p>Answers, please choose 1</p>
+            </div>
+            <div type="choix">
+               <list type="instructions">
+                  <item>i am the master of the maze</item>
+                  <item>yes, a thousand times, yes</item>
+                  <item>the maze will never let me go</item>
+                  <item>i've BEEN ready</item>
+                  <item>for real just get me out of here</item>
+               </list>
+            </div>
+
+            <pb/>
+         </div>
+
+         <div type="Solution" n="1" xml:id="S1" next="#S2">
+            <figure>
+               <graphic
+                  url="../images/imagesIllustrations/illustrationTheLabyrinthSolution_theRoomAtTheCenter.jpg"
+               />
+            </figure>
+            <lb/>
+            <lb/>
+            <p>Your Result:</p>
+            <lb/>
+            <p>the room at the center of the maze</p>
+            <lb/>
+            <lb/>
+            <p> you know who you are. you come into your own. lightning crackles under the skin
+               where veins converge and flesh is most tender. fire blooms behind your eyes. you know
+               who you are, you are powerful. you are the master of the maze. and now i can die in
+               peace. </p>
+            <note>Cette présentation temporaires des solutions n'est pas satifaisante. Une piste
+               envisageable serait de remplacer le bouton de navigation standard par un mécanisme
+               aléatoire qui afficherait l'une des cinq pages-solutions de manière non prédictible.
+               Cette approche préserverait l'esthétique du test original, où l'issue finale semble
+               déconnectée des choix effectués.</note>
+            <pb/>
+         </div>
+
+         <div type="Solution" n="2" xml:id="S2" next="#S3">
+            <figure>
+               <graphic
+                  url="https://img2.uquiz.com/content/images/personalities/personality_images/342642_1626358654.jpg"
+               />
+            </figure>
+            <lb/>
+            <lb/>
+            <p>Your Result:</p>
+            <lb/>
+            <p>you escape the labyrinth.</p>
+            <lb/>
+            <lb/>
+            <p> you stumble out of the rooms, the ancient smell clinging to your lips, your cheeks,
+               your skin. you blink once, twice, then look behind you. you do not recognize this
+               place. you have no memories of this place. you reach for the door handle to walk
+               inside. </p>
+            <pb/>
+         </div>
+
+         <div type="Solution" n="3" xml:id="S3" next="#S4">
+            <figure>
+               <graphic
+                  url="../images/imagesIllustrations/illustrationTheLabyrinthSolution_youAreTrapped1.jpg"
+               />
+            </figure>
+            <note>Les pages solutions suivantes n'ont pas encore été éditées.</note>
+            <pb/>
+         </div>
+
+         <div type="Solution" n="4" xml:id="S4" next="#S5">
+            <figure>
+               <graphic
+                  url="../images/imagesIllustrations/illustrationTheLabyrinthSolution_youAreTrapped2.jpg"
+               />
+            </figure>
+            <pb/>
+         </div>
+
+         <div type="Solution" n="5" xml:id="S5">
+            <figure>
+               <graphic
+                  url="../images/imagesIllustrations/illustrationTheLabyrinthSolution_youAreTrapped3.jpg"
+               />
+            </figure>
+            <pb/>
+         </div>
+
+      </body>
+   </text>
+</TEI>

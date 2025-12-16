@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <!-- donner un identifiant au texte, appeler l'auteur dans le header (renvoi index) Appeler les images associées. Donner un numéro de version-->
+      <fileDesc>
+         <titleStmt>
+            <title>Letters from Persephone</title>
+            <author ref="../metadonnees/IndexAuteurs.xml#WEE_Natalie">Natalie Wee</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc xml:id="textePoetiqueLettersFromPersephoneNum">
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#Wee2015"/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="../../onthologie/monOntologie.ttl"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <l>‘<persName corresp="../metadonnees/IndexPersonnages.xml#PERSEPHONE">i</persName> wasn’t afraid,
+               <persName corresp="../metadonnees/IndexPersonnages.xml#DEMETER">mama</persName>; </l>
+            <l>i was bored. i was hungry.</l>
+         </div>
+         <div>
+            <l>do you know how long i waited </l>
+            <l>for that fruit? me in the fields, </l>
+            <l>the sunlight on my hair a crown. </l>
+            <l>sweat on my palms glittering </l>
+            <l>like starbursts carved in marble, </l>
+            <l>teeth sharp as athena’s sword. </l>
+            <l><persName corresp="../metadonnees/IndexPersonnages.xml#HADES">he</persName> took one look at me </l>
+            <l>and broke the earth open</l>
+            <l>for desire. </l>
+         </div>
+         <div>
+            <l>and all that time, you thought </l>
+            <l>golden-armoured braggarts </l>
+            <l>could storm my heart into </l>
+            <l>surrender. oh, mama. </l>
+            <l>what did I care to be a bride </l>
+            <l>when i could be a queen? </l>
+         </div>
+         <div>
+            <l>i wasn’t afraid, mama: </l>
+            <l>i wasn’t taken. i left. </l>
+            <l>if only you knew </l>
+            <l>how his hair is softest </l>
+            <l>when he’s on his knees, </l>
+            <l>coaxing spring </l>
+            <l>from inside of me.’</l>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>kassandra rates her discomfort on a scale from 1-10</title>
+            <author><persName corresp="../metadonnees/IndexAuteurs.xml#CLARK_AlexPeery">alex peery clark</persName></author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc xml:id="textePoetiqueKassandraRates">
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#Clark2025"/>
+            <listObject>
+               <object type="imageSource">
+                  <objectIdentifier>
+                     <objectName>Image Source</objectName>
+                     <idno corresp="../images/imagesSources/SourceKassandraRates.png"/></objectIdentifier>
+               </object>
+            </listObject>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="../../monOntologie.ttl"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="questionReponse">
+            <div type="Question">
+               <p> Q: <persName corresp="../metadonnees/IndexPersonnages.xml#CASSANDRE">you</persName> say you can see the future? </p>
+            </div>
+         </div>
+         <div type="Reponse">
+            <p> A: i can't see the future, i just know it. i don't know it, it's a feeling. it's not
+               a feeling, it's an urge. it's like a headache. it's like heartburn. i't's like a
+               stomach flu. you wouldn't wish it on anyone but you wish they knew how it felt. </p>
+         </div>
+         <div type="questionReponse">
+            <div type="Question">
+               <p> Q: how long have you been experiencing theses symptoms? </p>
+            </div>
+         </div>
+         <div type="Reponse">
+            <p> A: i know i wasn't always like this but i can't remember anything else. </p>
+         </div>
+      </body>
+   </text>
+</TEI>
+<!-- Il faut adjoindre à ce travail :une image capture d ecran, une image 'fichier source' -->

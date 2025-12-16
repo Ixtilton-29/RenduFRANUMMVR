@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <!-- donner un identifiant au texte, appeler l'auteur dans le header (renvoi index) Appeler les images associées. Donner un numéro de version-->
+      <fileDesc>
+         <titleStmt>
+            <title>text messages from those descended from gods pt. 1</title>
+            <author ref="../metadonnees/IndexAuteurs.xml#BSC">BSC</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc xml:id="textePoetiqueTextMessagesFromThoseDescended">
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#BSC2014"/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="../../ontologie/monOntologie.ttl"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <p>"sext: <persName>i</persName> see you without my glasses on, and sure, that might be
+               medically improbable that i can’t see much else, but once, i read that even a sea
+               away, <persName corresp="../metadonnees/IndexPersonnages.xml#DIONYSOS"
+                  >dionysus</persName> heard <persName
+                  corresp="../metadonnees/IndexPersonnages.xml#ARIANE">ariadne</persName> scream for
+               her <persName corresp="../metadonnees/IndexPersonnages.xml#MINOTAURE">horned
+                  brother</persName>, and he’s waited for her since. i guess all i can say is that
+               i’d wait for you too."</p>
+         </div>
+      </body>
+   </text>
+</TEI>

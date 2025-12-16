@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>schismos.</title>
+            <author><persName corresp="../metadonnees/IndexAuteurs.xml#THECASSANDRIAD"
+                  >@the-cassandriad</persName></author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc xml:id="textePoetiqueSchismos">
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#the-cassandriad2025"/>
+            <listObject>
+               <object type="imageSource">
+                  <objectIdentifier>
+                     <objectName>Image Source</objectName>
+                     <idno corresp="../images/imagesSources/SourceSchismos.png"/>
+                  </objectIdentifier>
+               </object>
+               <object type="codeSource">
+                  <objectIdentifier>
+                     <objectName>Code Source</objectName>
+                     <idno corresp="../codeSource/schismos.html"/>
+                  </objectIdentifier>
+               </object>
+            </listObject>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="pers" matchPattern="(.+)" replacementPattern="./IndexPersonnages.xml"/>
+            <prefixDef ident="auth" matchPattern="(.+)" replacementPattern="./IndexAuteurs.xml"/>
+         </listPrefixDef>
+         <classDecl>
+            <taxonomy xml:id="personnage_types">
+               <category xml:id="personnage_mythologique">
+                  <catDesc>Personnage issu de la mythologie</catDesc>
+               </category>
+               <category xml:id="auteur">
+                  <catDesc>Auteur</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="../../monOntologie.ttl"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName>Référence externe</persName>
+                  <note>Les personnages sont documentés dans <ref target="/">l'index des
+                        personnages</ref> et dans <ref target="../metadonnees/IndexAuteurs.xml"
+                        >l'index des auteurs</ref>
+                  </note>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <note>
+            <p>Le rendu n'est pas du tout satisfaisant. Ce poème présente en effet des enjeux
+               éditoriaux spécifiques en raison de l'indissociabilité de sa dimension plastique et
+               de sa construction sémantique. L'organisation visuelle en deux colonnes n'est pas
+               accessoire. Le poème propose trois parcours de lecture possibles : une lecture
+               verticale de chaque colonne séparément, ou une lecture horizontale ligne par ligne,
+               où les deux voix fusionnent en un récit unique. Ces aller-retours que le lecteur doit
+               effectuer matérialisent les sauts temporels qui définissent l'existence même de
+               Cassandre. </p>
+            <p> En effet, cette organisation en deux colonnes offre une représentation plastique de
+               la dualité du personnage de Cassandre. La colonne de gauche, intitulée « girlhood »
+               correspond au passé, la colonne de droite, « godhood », dépeignant la prophétie qui
+               parle en Cassandre, au futur. Cette mise en regard de l'humain et du divin, du passé
+               narratif et du futur prophétique, structure l'œuvre.</p>
+            <p>Pour l'encodage, le typage et l'utilisation de balises seg pourrait permettre de
+               modéliser ces différents parcours, préservant ainsi la richesse polyphonique et les
+               possibilités d'exploration que l'œuvre propose.</p>
+         </note>
+
+         <div type="lecture3all">
+            <l><emph><seg type="lecture1girlhood" n="1">girlhood</seg>
+                  <seg type="lecture2godhood" n="1">goddhood</seg></emph>
+            </l>
+            <lb/>
+
+            <l><seg type="lecture1girlhood" n="2"><persName type="#personnage_mythologique"
+                     corresp="../metadonnees/IndexPersonnages.xml#CASSANDRE">i</persName> know wo
+                  many stories;</seg>
+               <seg type="lecture2godhood" n="2">
+                  <persName type="#personnage_mythologique"
+                     corresp="../metadonnees/IndexPersonnages.xml#CASSANDRE">i</persName> know the
+                  end;</seg>
+            </l>
+
+            <l><seg type="lecture1girlhood" n="3">i have lived them all.</seg>
+               <seg type="lecture2godhood" n="3"> now it is finished.</seg>
+            </l>
+
+            <l><seg type="lecture1girlhood" n="4"> troy fell and</seg>
+               <seg type="lecture2godhood" n="4"> troy fell and</seg>
+            </l>
+
+            <l><seg type="lecture1girlhood" n="5"> took me with it, a girl screaming</seg>
+               <seg type="lecture2godhood" n="5"> split in half.</seg>
+            </l>
+
+            <l><seg type="lecture1girlhood" n="6"> with red hands</seg>
+               <seg type="lecture2godhood" n="6"> she does the same to me</seg>
+            </l>
+
+            <l><seg type="lecture1girlhood" n="7"> as i call out to you:</seg>
+               <seg type="lecture2godhood" n="7"> weapon in my hand</seg>
+            </l>
+
+            <l><seg type="lecture1girlhood" n="8">
+                  <persName type="#personnage_mythologique"
+                     corresp="../metadonnees/IndexPersonnages.xml#APOLLON">apollo</persName></seg>
+               <seg type="lecture2godhood" n="8"> my destroyer!</seg>
+            </l>
+
+            <l><seg type="lecture1girlhood" n="9"> why would you bring me </seg>
+               <seg type="lecture2godhood" n="9"> a prophecy—</seg>
+            </l>
+
+            <l><seg type="lecture1girlhood" n="10"> to this</seg>
+               <seg type="lecture2godhood" n="10"> cursed, vile, wretched;</seg>
+            </l>
+
+            <l><seg type="lecture1girlhood" n="11">house that smells like</seg>
+               <seg type="lecture2godhood" n="11">my</seg>
+            </l>
+
+            <l><seg type="lecture1girlhood" n="12">blood. i will tell you a story,</seg>
+               <seg type="lecture2godhood" n="12">muse, whoever you may be,</seg>
+            </l>
+
+            <l><seg type="lecture1girlhood" n="13">not a prophecy.</seg>
+               <seg type="lecture2godhood" n="13">please believe me.</seg>
+            </l>
+
+            <l><seg type="lecture1girlhood" n="14">will you believe it?</seg>
+               <seg type="lecture2godhood" n="14">you are all i have left.</seg>
+            </l>
+
+         </div>
+      </body>
+   </text>
+</TEI>
+<!-- Il faut adjoindre à ce travail :une image capture d ecran, une image 'fichier source' -->

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Index des personnages cités</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc xml:id="IndexPersonnages">
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="../../ontologie/monOntologie.ttl"/>
+            </application>
+         </appInfo>
+         <classDecl>
+            <taxonomy xml:id="personnage_types">
+               <category xml:id="dieuGrec">
+                  <catDesc>dieu grec</catDesc>
+               </category>
+               <category xml:id="deesseGrecque">
+                  <catDesc>déesse grecque</catDesc>
+               </category>
+               <category xml:id="humainMythGrecque">
+                  <catDesc>Humain appartenant à la mythologie grecque</catDesc>
+               </category>
+               <category xml:id="figureBiblique">
+                  <catDesc>figure biblique</catDesc>
+               </category>
+               <category xml:id="monstre">
+                  <catDesc>monstre</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="index">
+            <head>Index des Personnages</head>
+            
+            <!-- Les Index ont été réalisés dans le but à long terme d'améliorer la navigation d'un texte à un autre, mais au fond, quelle est leur fonction? 
+               que renseignent ils ? Permettraient de rendre circulaire la lecture pour un lecteur obessionnel ? Améliorer la recherhce ?  -->
+            
+            <listPerson type="characters">
+               
+               <person xml:id="PERSEPHONE" corresp="#deesseGrecque">
+                  <persName>Perséphone</persName>
+                  <sex>female</sex>
+                  <occupation>déesse du printemps et reine des enfers</occupation>
+               </person>
+
+               <person xml:id="HADES" corresp="#dieuGrec">
+                  <persName>Hadès</persName>
+                  <sex>male</sex>
+                  <occupation>dieu des enfers</occupation>
+               </person>
+
+               <person xml:id="DEMETER" corresp="#deesseGrecque">
+                  <persName>Déméter</persName>
+                  <sex>female</sex>
+                  <occupation>déesse des récoltes, mère de Perséphone</occupation>
+               </person>
+
+               <person xml:id="CASSANDRE" corresp="#humainMythGrecque">
+                  <persName><name>Cassandre</name>
+                     <name>Kassandra</name>
+                     <name>Kassandra of Troy</name></persName>
+                  <sex>female</sex>
+                  <occupation>Prophétesse</occupation>
+               </person>
+
+               <person xml:id="APOLLON" corresp="#dieuGrec">
+                  <persName>Apollon</persName>
+                  <sex>male</sex>
+                  <occupation>dieu de la médicine, des arts, des prophéties</occupation>
+               </person>
+
+               <person xml:id="ARIANE" corresp="#humainMythGrecque">
+                  <persName>Ariane de Crète</persName>
+                  <sex>female</sex>
+                  <occupation>fille du roi Minos, princesse de Crète</occupation>
+               </person>
+               
+               <person xml:id="MINOTAURE" corresp="#monstre">
+                  <persName>Le Minotaure</persName>
+                  <sex>male</sex>
+                  <occupation>Monstre mythologique mi-homme, mi-taureau</occupation>
+               </person>
+
+               <person xml:id="MINOS" corresp="#humainMythGrecque">
+                  <persName>Le roi Minos</persName>
+                  <sex>male</sex>
+                  <occupation>Roi de Crète, fils de Zeus</occupation>
+               </person>
+               
+               <person xml:id="THESEE" corresp="#humainMythGrecque">
+                  <persName>Thésée</persName>
+                  <sex>male</sex>
+                  <occupation>Roi d'Athènes, héros grec</occupation>
+               </person>
+               
+               <person xml:id="DIONYSOS" corresp="#dieuGrec">
+                  <persName>Dionysos</persName>
+                  <sex>male</sex>
+                  <occupation>Dieu de la vigne</occupation>
+               </person>
+               
+               <person xml:id="MIDAS" corresp="#humainMythGrecque">
+                  <persName>Midas</persName>
+                  <sex>male</sex>
+                  <occupation>Roi de Phrygie</occupation>
+               </person>
+               
+               <person xml:id="ICARE" corresp="#humainMythGrecque">
+                  <persName>Icare</persName>
+                  <sex>male</sex>
+                  <occupation>Fils de Dédale</occupation>
+               </person>
+               
+               <person xml:id="DEDALE" corresp="#humainMythGrecque">
+                  <persName>Dédale</persName>
+                  <sex>male</sex>
+                  <occupation>Créateur du Labyrinthe</occupation>
+               </person>
+               
+               <person xml:id="MEDUSE" corresp="#monstre">
+                  <persName>Méduse</persName>
+                  <sex>female</sex>
+                  <occupation>Une des trois Gorgones</occupation>
+               </person>
+               
+            </listPerson>
+         </div>
+      </body>
+   </text>
+</TEI>

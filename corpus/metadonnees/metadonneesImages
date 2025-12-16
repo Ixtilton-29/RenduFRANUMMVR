@@ -1,0 +1,2046 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://tropy.org/v1/tropy#",
+    "template": {
+      "@type": "@id"
+    },
+    "photo": {
+      "@id": "https://tropy.org/v1/tropy#photo",
+      "@container": "@list"
+    },
+    "note": {
+      "@id": "https://tropy.org/v1/tropy#note",
+      "@container": "@list"
+    },
+    "selection": {
+      "@id": "https://tropy.org/v1/tropy#selection",
+      "@container": "@list"
+    },
+    "creator": "http://purl.org/dc/elements/1.1/creator",
+    "date": {
+      "@id": "http://purl.org/dc/elements/1.1/date",
+      "@type": "https://tropy.org/v1/tropy#date"
+    },
+    "source": "http://purl.org/dc/elements/1.1/source",
+    "identifier": "http://purl.org/dc/elements/1.1/identifier",
+    "type": "http://purl.org/dc/elements/1.1/type",
+    "title": "http://purl.org/dc/elements/1.1/title"
+  },
+  "@graph": [
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "creator": "Juliette Sokolov",
+      "date": "2025-11-12",
+      "source": "tumblr_b3b0c49308fa1570efec2a58363683dd_8b6f7622_2048",
+      "identifier": "DiffusionPersephoneWrites1",
+      "type": "Diffusion",
+      "title": "DiffusionPersephoneWrites1",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Tara Mae Mulroy",
+        "Diffusion",
+        "Témoin"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "94e4c5228d5f4e1e761399bc87cbffa7",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Capture d’écran du 2025-11-12 13-18-22.png",
+          "mimetype": "image/png",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/94e4c5228d5f4e1e761399bc87cbffa7.png",
+          "protocol": "file",
+          "size": 254294,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1080,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1920,
+          "title": "Capture d’écran du 2025-11-12 13-18-22",
+          "date": "2025-11-12T18:18:31.099Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "creator": "Juliette Sokolov",
+      "date": "12 novembre 2025",
+      "type": "Diffusion",
+      "identifier": "DiffusionPersephoneWrites2",
+      "source": "https://april-is.tumblr.com/post/81586273619/april-3-2014-persephone-writes-to-her-mother",
+      "title": "DiffusionPersephoneWrites2",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Tara Mae Mulroy",
+        "Diffusion",
+        "Témoin"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "508bdadd4caef1d3f35b70aefa555827",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Capture d’écran du 2025-11-12 13-15-11.png",
+          "mimetype": "image/png",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/508bdadd4caef1d3f35b70aefa555827.png",
+          "protocol": "file",
+          "size": 252363,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1080,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1920,
+          "title": "Capture d’écran du 2025-11-12 13-15-11",
+          "date": "2025-11-12T18:15:47.724Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "creator": "Juliette Sokolov",
+      "date": "12 novembre 2025",
+      "type": "Diffusion",
+      "identifier": "DiffusionPersephoneWrites4",
+      "source": "https://wondrousstrangesnow.tumblr.com/post/108716274928/mother-he-is-a-gentleman-he-is-a-builder-with",
+      "title": "DiffusionPersephoneWrites4",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Tara Mae Mulroy",
+        "Diffusion",
+        "Témoin"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "4b952b9b388a5e4ce874b9e866e59fdc",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Capture d’écran du 2025-11-12 13-14-13.png",
+          "mimetype": "image/png",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/4b952b9b388a5e4ce874b9e866e59fdc.png",
+          "protocol": "file",
+          "size": 469817,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1080,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1920,
+          "title": "Capture d’écran du 2025-11-12 13-14-13",
+          "date": "2025-11-12T18:14:17.022Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "creator": "Juliette Sokolov",
+      "date": "12 novembre 2025",
+      "type": "Diffusion",
+      "source": "https://wondrousstrangesnow.tumblr.com/post/108716274928/mother-he-is-a-gentleman-he-is-a-builder-with",
+      "identifier": "DiffusionPersephoneWrites5",
+      "title": "DiffusionPersephoneWrites5",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Tara Mae Mulroy",
+        "Diffusion",
+        "Témoin",
+        "Intertextualité",
+        "Fandom"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "c20a0ab653c941db53becbbc7e04f257",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Capture d’écran du 2025-11-12 13-19-02.png",
+          "mimetype": "image/png",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/c20a0ab653c941db53becbbc7e04f257.png",
+          "protocol": "file",
+          "size": 378010,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1080,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1920,
+          "title": "Capture d’écran du 2025-11-12 13-19-02",
+          "date": "2025-11-12T18:19:04.328Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "creator": "Juliette Sokolov",
+      "date": "12 novembre 2025",
+      "type": "Diffusion",
+      "identifier": "DiffusionPersephoneWrites3",
+      "source": "https://nightlibrary.tumblr.com/post/164812394307/persephone-writes-to-her-mother-by-tara-mae-mulroy",
+      "title": "DiffusionPersephoneWrites3",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Tara Mae Mulroy",
+        "Diffusion",
+        "Témoin"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "1f7e706286d5689c009cee59cd03b0c1",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Capture d’écran du 2025-11-12 13-19-11.png",
+          "mimetype": "image/png",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/1f7e706286d5689c009cee59cd03b0c1.png",
+          "protocol": "file",
+          "size": 230418,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1080,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1920,
+          "title": "Capture d’écran du 2025-11-12 13-19-11",
+          "date": "2025-11-12T18:19:12.470Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "title": "Capture d’écran du 2025-11-12 13-21-22",
+      "date": "12 novembre 2025",
+      "creator": "Juliette Sokolov",
+      "identifier": "DiffusionLettersFromP1",
+      "source": "https://www.tumblr.com/soracities/162641997603/his-fingers-wingspan",
+      "type": "Diffusion",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Diffusion",
+        "Témoin",
+        "Natalie Wee"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "45f31219b09d5a25da34b86204b779cf",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "Capture d’écran du 2025-11-12 13-21-22.png",
+          "mimetype": "image/png",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/45f31219b09d5a25da34b86204b779cf.png",
+          "protocol": "file",
+          "size": 446716,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1080,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1920,
+          "title": "Capture d’écran du 2025-11-12 13-21-22",
+          "date": "2025-11-12T18:21:25.212Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "creator": "Alex Peery Clark",
+      "date": "12 novembre 2025",
+      "type": "Source",
+      "source": "https://64.media.tumblr.com/fd145193a5469b164fd71aa1dd6f9f51/0b9433ad5ae73f20-b9/s1280x1920/94ffbe243dfa5571cf414be76cd684f68f9fa9ca.pnj",
+      "identifier": "SourceKassandraRates1",
+      "title": "SourceKassandraRates1",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Source",
+        "Alex Peery Clark"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "fc7a031618f2a19af8abd4585b245a6c",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "CLARKAlexPeeryKassandraRates.png",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/fc7a031618f2a19af8abd4585b245a6c.png",
+          "protocol": "file",
+          "size": 154381,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1080,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1080,
+          "title": "CLARKAlexPeeryKassandraRates",
+          "date": "2025-11-12T20:08:02.875Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "creator": "Juliette Sokolov",
+      "date": "12 novembre 2025",
+      "source": "https://www.tumblr.com/two-bees-poetry/775512365021216768/kassandra-rates-her-discomfort-on-a-scale-from",
+      "type": "Témoin",
+      "identifier": "TemoinKassandraRates1",
+      "title": "TemoinKassandraRates1",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Témoin",
+        "Source"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "58cfe203b1d42b0bc71c96a985737224",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "CLARKAlexPeeryCapture d’écran du 2025-11-12 15-10-37.png",
+          "mimetype": "image/png",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/58cfe203b1d42b0bc71c96a985737224.png",
+          "protocol": "file",
+          "size": 652710,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1080,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1920,
+          "title": "CLARKAlexPeeryCapture d’écran du 2025-11-12 15-10-37",
+          "date": "2025-11-12T20:10:55.909Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "source": "https://fr.pinterest.com/pin/6614730697817164/",
+      "creator": "Anonyme",
+      "date": "12 novembre 2025",
+      "type": "Reponse",
+      "identifier": "ReponseMcGhee2",
+      "title": "ReponseMcGhee2",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Intertextualité",
+        "Reponse",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "641ad8854167ffcc960f9e3f23cf26e4",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "6a6dfeda20dac0aa1f1ba84d27b5df1d.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/641ad8854167ffcc960f9e3f23cf26e4.jpg",
+          "protocol": "file",
+          "size": 201118,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1308,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 736,
+          "title": "6a6dfeda20dac0aa1f1ba84d27b5df1d",
+          "date": "2025-11-12T20:29:29.837Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "creator": "Anonyme",
+      "date": "12 novembre 2025",
+      "type": "Reponse",
+      "source": "https://fr.pinterest.com/pin/1477812374117381/",
+      "identifier": "ReponseMcGhee1",
+      "title": "ReponseMcGhee1",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Intertextualité",
+        "Reponse",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "a51847e049d779c3224da9946699db67",
+          "color": "rgb(72,40,24,1)",
+          "density": null,
+          "filename": "pers.png",
+          "mimetype": "image/png",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/a51847e049d779c3224da9946699db67.png",
+          "protocol": "file",
+          "size": 5623779,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 2048,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1152,
+          "title": "pers",
+          "date": "2025-11-12T20:28:21.667Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "creator": "Juliette Sokolov",
+      "date": "12 novembre 2025",
+      "type": "Reponse",
+      "source": "https://fr.pinterest.com/pin/68749178021/",
+      "identifier": "ReponsePersephoneGirl1",
+      "title": "ReponsePersephoneGirl1",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Nikita Gill",
+        "Reponse",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "4078a40083595f582f4d1d1a8c00d8c7",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "téléchargement.png",
+          "mimetype": "image/png",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/4078a40083595f582f4d1d1a8c00d8c7.png",
+          "protocol": "file",
+          "size": 3448311,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 2048,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1152,
+          "title": "téléchargement",
+          "date": "2025-11-12T20:30:09.343Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthSolution_youEscape",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthSolution_youEscape",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626360122.jpg",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Uquiz",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "38698cb87201c2f91c319c6c2529379f",
+          "color": "rgb(72,56,56,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthSolution_youEscape.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/38698cb87201c2f91c319c6c2529379f.jpg",
+          "protocol": "file",
+          "size": 22512,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 400,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 400,
+          "date": "2025-12-10T19:11:17.758Z",
+          "title": "illustrationTheLabyrinthSolution_youEscape"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthSolution_youAreTrapped3",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "source": "",
+      "identifier": "illustrationTheLabyrinthSolution_youAreTrapped1",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Uquiz",
+        "Illustration",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "2b69dcd8342707f9d4c356e40714a36b",
+          "color": "rgb(152,152,152,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthSolution_youAreTrapped3.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/2b69dcd8342707f9d4c356e40714a36b.jpg",
+          "protocol": "file",
+          "size": 118833,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 658,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 680,
+          "date": "2025-12-10T19:12:07.565Z",
+          "title": "illustrationTheLabyrinthSolution_youAreTrapped3"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthSolution_youAreTrapped2",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthSolution_youAreTrapped2",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Intermédialité",
+        "Illustration",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "cccfef3a2f30f2bb08929261a6ea1209",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthSolution_youAreTrapped2.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/cccfef3a2f30f2bb08929261a6ea1209.jpg",
+          "protocol": "file",
+          "size": 78330,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 700,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 700,
+          "date": "2025-12-10T19:11:59.765Z",
+          "title": "illustrationTheLabyrinthSolution_youAreTrapped2"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthSolution_youAreTrapped1",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthSolution_youAreTrapped3",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Uquiz",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "289ea85b1db601443ef85e09e2c3da63",
+          "color": "rgb(40,40,40,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthSolution_youAreTrapped1.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/289ea85b1db601443ef85e09e2c3da63.jpg",
+          "protocol": "file",
+          "size": 63166,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 647,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 674,
+          "date": "2025-12-10T19:11:47.306Z",
+          "title": "illustrationTheLabyrinthSolution_youAreTrapped1"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthSolution_theRoomAtTheCenter",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthSolution_theRoomAtTheCenter",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Intermédialité",
+        "Illustration",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "d1097711ef03a73f81f6ae0dc4fbce95",
+          "color": "rgb(232,216,200,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthSolution_theRoomAtTheCenter.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/d1097711ef03a73f81f6ae0dc4fbce95.jpg",
+          "protocol": "file",
+          "size": 44210,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 750,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 750,
+          "date": "2025-12-10T19:12:21.359Z",
+          "title": "illustrationTheLabyrinthSolution_theRoomAtTheCenter"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_78",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_78",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626400008.jpg",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Uquiz",
+        "Illustration",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "feb6f0bdbe49218b218838576e2838ec",
+          "color": "rgb(24,24,24,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_78.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/feb6f0bdbe49218b218838576e2838ec.jpg",
+          "protocol": "file",
+          "size": 191508,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1125,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 750,
+          "date": "2025-12-10T19:11:00.084Z",
+          "title": "illustrationTheLabyrinthQ_78"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_67",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_67",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Intermédialité",
+        "Illustration",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "68b78264ac6e4c4d6ecefcd03806847d",
+          "color": "rgb(136,120,104,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_67.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/68b78264ac6e4c4d6ecefcd03806847d.jpg",
+          "protocol": "file",
+          "size": 127642,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1176,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 750,
+          "date": "2025-12-10T19:10:23.465Z",
+          "title": "illustrationTheLabyrinthQ_67"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_57",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626391547.jpg",
+      "creator": "yeahyeahbis",
+      "identifier": "illustrationTheLabyrinthQ_57",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Intermédialité",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "f0da352c3f7d596ea0fa095b650ca1f3",
+          "color": "rgb(56,40,24,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_57.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/f0da352c3f7d596ea0fa095b650ca1f3.jpg",
+          "protocol": "file",
+          "size": 28153,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 250,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 300,
+          "date": "2025-12-10T19:08:16.535Z",
+          "title": "illustrationTheLabyrinthQ_57"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_42",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626389034.jpg",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_42",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Intermédialité",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "ad150add22e2176ba4367e4cd1857fca",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_42.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/ad150add22e2176ba4367e4cd1857fca.jpg",
+          "protocol": "file",
+          "size": 45124,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 450,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 341,
+          "date": "2025-12-10T19:07:37.316Z",
+          "title": "illustrationTheLabyrinthQ_42"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_41",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_41",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626388754.jpg",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Intermédialité",
+        "Illustration",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "865039a2e86f937ec930ec3333e2984f",
+          "color": "rgb(56,24,8,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_41.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/865039a2e86f937ec930ec3333e2984f.jpg",
+          "protocol": "file",
+          "size": 116034,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 499,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 749,
+          "date": "2025-12-10T19:07:29.710Z",
+          "title": "illustrationTheLabyrinthQ_41"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_39",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_39",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626386997.jpg",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Uquiz",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "ba42f940b7092bd04c9c8002e13d9982",
+          "color": "rgb(24,24,24,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_39.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/ba42f940b7092bd04c9c8002e13d9982.jpg",
+          "protocol": "file",
+          "size": 169469,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1048,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 710,
+          "date": "2025-12-10T19:07:08.636Z",
+          "title": "illustrationTheLabyrinthQ_39"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_38",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_38",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626386565.jpg",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Intermédialité",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "c7d57b75573aa758e89aac087a5e4b4e",
+          "color": "rgb(24,24,8,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_38.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/c7d57b75573aa758e89aac087a5e4b4e.jpg",
+          "protocol": "file",
+          "size": 68175,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 480,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 391,
+          "date": "2025-12-10T19:06:57.131Z",
+          "title": "illustrationTheLabyrinthQ_38"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_37",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_37",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626386341.jpg",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Uquiz",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "faeffa88491c686ec38267f122e2491a",
+          "color": "rgb(168,136,104,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_37.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/faeffa88491c686ec38267f122e2491a.jpg",
+          "protocol": "file",
+          "size": 59528,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 538,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 750,
+          "date": "2025-12-10T19:06:48.408Z",
+          "title": "illustrationTheLabyrinthQ_37"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_36",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_36",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Uquiz",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "af184c1c272dd5e76095369acc06337a",
+          "color": "rgb(200,200,200,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_36.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/af184c1c272dd5e76095369acc06337a.jpg",
+          "protocol": "file",
+          "size": 72778,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 656,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 700,
+          "date": "2025-12-10T19:06:37.472Z",
+          "title": "illustrationTheLabyrinthQ_36"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_34",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_34",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Intermédialité",
+        "Illustration",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "5e14db62aeba31241a0cd1d6a8649a7c",
+          "color": "rgb(168,168,136,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_34.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/5e14db62aeba31241a0cd1d6a8649a7c.jpg",
+          "protocol": "file",
+          "size": 80692,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 707,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 500,
+          "date": "2025-12-10T19:06:26.083Z",
+          "title": "illustrationTheLabyrinthQ_34"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_33",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "identifier": "illustrationTheLabyrinthQ_33",
+      "type": "Illustration",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Intermédialité",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "d39a497e5d7f9b4a265974deedded4e4",
+          "color": "rgb(152,168,184,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_33.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/d39a497e5d7f9b4a265974deedded4e4.jpg",
+          "protocol": "file",
+          "size": 46367,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 495,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 750,
+          "date": "2025-12-10T19:06:16.660Z",
+          "title": "illustrationTheLabyrinthQ_33"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_28",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_28",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626383940.jpg",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Uquiz",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "c3cbcd5b3cec0cb0dab12550226e4843",
+          "color": "rgb(120,120,120,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_28.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/c3cbcd5b3cec0cb0dab12550226e4843.jpg",
+          "protocol": "file",
+          "size": 65703,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 667,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 500,
+          "date": "2025-12-10T19:05:46.479Z",
+          "title": "illustrationTheLabyrinthQ_28"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_24",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626378346.jpg",
+      "date": "10 décembre 2025",
+      "creator": "yeahyeahbis",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_24",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Intermédialité",
+        "Uquiz",
+        "Illustration"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "7bf5feede19c93e21dbd9287f04ad476",
+          "color": "rgb(152,152,152,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_24.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/7bf5feede19c93e21dbd9287f04ad476.jpg",
+          "protocol": "file",
+          "size": 55714,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 640,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 480,
+          "date": "2025-12-10T19:05:14.845Z",
+          "title": "illustrationTheLabyrinthQ_24"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_21",
+      "creator": "Juliette Sokolov",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_21",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Uquiz",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "3e0703594a19a279c86cc742172e9459",
+          "color": "rgb(152,136,120,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_21.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/3e0703594a19a279c86cc742172e9459.jpg",
+          "protocol": "file",
+          "size": 110158,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1000,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 750,
+          "date": "2025-12-10T19:04:51.409Z",
+          "title": "illustrationTheLabyrinthQ_21"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_20",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_20",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626377243.jpg",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Uquiz",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "9fdf81352c7ea2847fa459faaad09f1c",
+          "color": "rgb(40,56,56,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_20.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/9fdf81352c7ea2847fa459faaad09f1c.jpg",
+          "protocol": "file",
+          "size": 83508,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 590,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 474,
+          "date": "2025-12-10T19:04:40.696Z",
+          "title": "illustrationTheLabyrinthQ_20"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_19",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_19",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626376167.jpg",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Intermédialité",
+        "Uquiz",
+        "Illustration"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "11eb6833fa7423da153cfe7a46e0b7e9",
+          "color": "rgb(88,72,56,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_19.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/11eb6833fa7423da153cfe7a46e0b7e9.jpg",
+          "protocol": "file",
+          "size": 76633,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 749,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 500,
+          "date": "2025-12-10T19:04:29.872Z",
+          "title": "illustrationTheLabyrinthQ_19"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_15",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626373138.jpg",
+      "identifier": "illustrationTheLabyrinthQ_15",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Uquiz",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "67a3c0fae7e3e2d962f85efc0890dbd1",
+          "color": "rgb(72,56,56,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_15.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/67a3c0fae7e3e2d962f85efc0890dbd1.jpg",
+          "protocol": "file",
+          "size": 65941,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 517,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 400,
+          "date": "2025-12-10T19:04:02.709Z",
+          "title": "illustrationTheLabyrinthQ_15"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_14",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_14",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626367014.jpg",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Uquiz",
+        "Illustration",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "40895b8d668c6c1f07405e8714e9a0a7",
+          "color": "rgb(184,136,88,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_14.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/40895b8d668c6c1f07405e8714e9a0a7.jpg",
+          "protocol": "file",
+          "size": 78171,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 879,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 749,
+          "date": "2025-12-10T19:03:52.146Z",
+          "title": "illustrationTheLabyrinthQ_14"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_12",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_12",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Intermédialité",
+        "Illustration",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "2dd3e06ad8f2576340e25c4a1dfa9f1b",
+          "color": "rgb(216,200,184,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_12.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/2dd3e06ad8f2576340e25c4a1dfa9f1b.jpg",
+          "protocol": "file",
+          "size": 67191,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 958,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 750,
+          "date": "2025-12-10T19:03:38.852Z",
+          "title": "illustrationTheLabyrinthQ_12"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_11",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_11",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626364772.jpg",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Uquiz",
+        "Intermédialité",
+        "Illustration"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "45b2d4110de6e9ce128b50105effc3e2",
+          "color": "rgb(40,40,40,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_11.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/45b2d4110de6e9ce128b50105effc3e2.jpg",
+          "protocol": "file",
+          "size": 157058,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1125,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 750,
+          "date": "2025-12-10T19:03:28.990Z",
+          "title": "illustrationTheLabyrinthQ_11"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_09",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_09",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626363668.jpg",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Intermédialité",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "d8a7d3afdeca51ffeb92ee8688d7ec2c",
+          "color": "rgb(56,40,40,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_09.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/d8a7d3afdeca51ffeb92ee8688d7ec2c.jpg",
+          "protocol": "file",
+          "size": 119518,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1002,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 668,
+          "date": "2025-12-10T19:02:19.485Z",
+          "title": "illustrationTheLabyrinthQ_09"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_08",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626363506.jpg",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_08",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Intermédialité",
+        "Uquiz",
+        "Illustration"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "2745e0c6e5cf20b341c2dfba2ca7013e",
+          "color": "rgb(152,136,104,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_08.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/2745e0c6e5cf20b341c2dfba2ca7013e.jpg",
+          "protocol": "file",
+          "size": 58651,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1019,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 645,
+          "date": "2025-12-10T19:02:07.245Z",
+          "title": "illustrationTheLabyrinthQ_08"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_07",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626362906.jpg",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_07",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Uquiz",
+        "Illustration",
+        "Intermédialité"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "cec6859f93bbd9bae931068d4561dc07",
+          "color": "rgb(232,216,216,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_07.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/cec6859f93bbd9bae931068d4561dc07.jpg",
+          "protocol": "file",
+          "size": 53401,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 690,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 540,
+          "date": "2025-12-10T19:01:54.666Z",
+          "title": "illustrationTheLabyrinthQ_07"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_05",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626362115.jpg",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_05",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Intermédialité",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "3aa68c0d6581c1b60c0dbb488589ebf5",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_05.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/3aa68c0d6581c1b60c0dbb488589ebf5.jpg",
+          "protocol": "file",
+          "size": 72307,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 656,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 480,
+          "date": "2025-12-10T19:01:13.326Z",
+          "title": "illustrationTheLabyrinthQ_05"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_02",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626360802.jpg",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "identifier": "illustrationTheLabyrinthQ_02",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Intermédialité",
+        "Uquiz",
+        "Illustration"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "2bfb77d4ba7f87c62137d11174dd0d9e",
+          "color": "rgb(56,24,8,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_02.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/2bfb77d4ba7f87c62137d11174dd0d9e.jpg",
+          "protocol": "file",
+          "size": 149076,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1309,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 736,
+          "date": "2025-12-10T19:00:56.389Z",
+          "title": "illustrationTheLabyrinthQ_02"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "illustrationTheLabyrinthQ_01",
+      "creator": "yeahyeahbis",
+      "date": "10 décembre 2025",
+      "type": "Illustration",
+      "source": "https://img2.uquiz.com/content/images/question_media/1626360122.jpg",
+      "identifier": "illustrationTheLabyrinthQ_01",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Illustration",
+        "Intermédialité",
+        "Uquiz"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "ccb6aee8cfe0d673a3d6c1daf662cc9e",
+          "color": "rgb(184,168,152,1)",
+          "density": null,
+          "filename": "illustrationTheLabyrinthQ_01.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/ccb6aee8cfe0d673a3d6c1daf662cc9e.jpg",
+          "protocol": "file",
+          "size": 60992,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 495,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 495,
+          "date": "2025-12-10T18:59:32.947Z",
+          "title": "illustrationTheLabyrinthQ_01"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "temoinTheLabyrinth",
+      "identifier": "temoinTheLabyrinth",
+      "type": "Témoin",
+      "creator": "Juliette Sokolov",
+      "date": "10 décembre 2025",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Uquiz",
+        "Intermédialité",
+        "Témoin"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "d16df2fcf8440439ac0ddedbc08a772a",
+          "color": "rgb(88,24,24,1)",
+          "density": null,
+          "filename": "temoinTheLabyrinth.png",
+          "mimetype": "image/png",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/d16df2fcf8440439ac0ddedbc08a772a.png",
+          "protocol": "file",
+          "size": 681002,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1080,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1920,
+          "date": "2025-12-10T19:14:25.486Z",
+          "title": "temoinTheLabyrinth"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "temoinBloodStringFibrousGut",
+      "creator": "Juliette Sokolov",
+      "date": "10 décembre 2025",
+      "type": "Témoin",
+      "identifier": "temoinBloodStringFibrousGut",
+      "list": [
+        "Ontologie"
+      ],
+      "tag": [
+        "Uquiz",
+        "Intermédialité",
+        "Témoin"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "6fc2ae204ab70a2c16bf1db1e58e2b7c",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "temoinBloodStringFibrousGut.png",
+          "mimetype": "image/png",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/jsokolov/Documents/Corpus/corpusMythpoetry.tropy/assets/6fc2ae204ab70a2c16bf1db1e58e2b7c.png",
+          "protocol": "file",
+          "size": 62339,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1080,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1920,
+          "date": "2025-12-10T19:21:23.875Z",
+          "title": "temoinBloodStringFibrousGut"
+        }
+      ]
+    }
+  ],
+  "version": "1.17.0"
+}

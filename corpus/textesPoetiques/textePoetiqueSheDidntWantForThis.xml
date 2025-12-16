@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(!!!) she didn’t want for this</title>
+            <author><persName corresp="../metadonnees/IndexAuteurs.xml#I.M.A">i.m.a.</persName></author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc xml:id="textePoetiqueSheDidntWantForThis">
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#i.m.a."/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="personnage_types">
+               <category xml:id="personnage_mythologique">
+                  <catDesc>Personnage issu de la mythologie</catDesc>
+               </category>
+               <category xml:id="auteur">
+                  <catDesc>Auteur</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="../../onthologie/monOntologie.ttl"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName>Référence externe</persName>
+                  <note>Les personnages sont documentés dans <ref target="../metadonnees/IndexPersonnages.xml"
+                        >l'index des personnages</ref>
+                     <ref target="IndexAuteurs.xml">l'index des auteurs</ref>
+                  </note>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+
+   </teiHeader>
+   <text>
+      <body>
+         <div type="Question">
+            <p>ANONYME ASKED: </p>
+         </div>
+         <div>
+            <p>(!!!) <persName type="#personnage_mythologique"
+                  corresp="../metadonnees/IndexPersonnages.xml#PERSEPHONE">she</persName> didn’t want
+               for this / but they dragged her away / kicking and screaming and resisting / place a
+               crown of roses devoid of petals / upon her pretty head / said pain makes a leader /
+               but now / they are the ones / kicking and screaming and resisting / when she presses
+               the thorns / that were once resting / in her pretty golden locks / into the red of
+               their wounds / which are the same red / of the petals the once discarded / in favor
+               of thorns / to adorn her head </p>
+         </div>
+         <div>
+            <p>(i.m.a.)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

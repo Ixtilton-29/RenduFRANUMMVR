@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Persephone Writes to Her Mother</title>
+            <author>
+               <persName corresp="../metadonnees/IndexAuteurs.xml#MULROY_TaraMae">Tara Mae Mulroy
+               </persName></author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc xml:id="textePoetiquePersephoneWrites">
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#Mulroy2015"/>
+            <bibl corresp="../metadonnees/IndexBibliographique.xml#Mulroy2018"/>
+            <listObject>
+               <object type="imageDiffusion">
+                  <objectIdentifier>
+                     <objectName>Témoin de la diffusion du poème sur le web n°1</objectName>
+                     <idno corresp="../images/imagesDiffusion/DiffusionPersephoneWrites1.png"/>
+                  </objectIdentifier>
+               </object>
+               <object type="imageTémoin">
+                  <objectIdentifier>
+                     <objectName>Témoin de la diffusion du poème sur le web n°2</objectName>
+                     <idno corresp="../images/imagesDiffusion/DiffusionPersephoneWrites2.png"/>
+                  </objectIdentifier>
+               </object>
+               <object type="imageTémoin">
+                  <objectIdentifier>
+                     <objectName>Témoin de la diffusion du poème sur le web n°3</objectName>
+                     <idno corresp="../images/imagesDiffusion/DiffusionPersephoneWrites3.png"/>
+                  </objectIdentifier>
+               </object>
+               <object>
+                  <objectIdentifier>
+                     <objectName>Témoin de la diffusion du poème sur le web n°4</objectName>
+                     <idno corresp="../images/imagesDiffusion/DiffusionPersephoneWrites4.png"/>
+                  </objectIdentifier>
+               </object>
+               <object>
+                  <objectIdentifier>
+                     <objectName>Témoin de la diffusion du poème sur le web n°5</objectName>
+                     <idno corresp="../images/imagesDiffusion/DiffusionPersephoneWrites5.png"/>
+                  </objectIdentifier>
+               </object>
+            </listObject>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="1.0" ident="Ontology">
+               <label>Ontologie du projet</label>
+               <ptr target="monOntologie.ttl"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+
+   </teiHeader>
+   <text>
+      <body>
+         <l>
+            <persName corresp="../metadonnees/IndexPersonnages.xml#DEMETER">Mother</persName>,
+               <persName corresp="../metadonnees/IndexPersonnages.xml#HADES">he</persName> is a
+            gentleman. </l>
+         <l> He is a builder with bricks of moonlight. </l>
+         <l> He knows the secret places of the earth. </l>
+         <l> He washes the sleep from the eyes of the souls. </l>
+         <l> He lets them look on beauty. </l>
+         <l> He lets them tell him they hate him.</l>
+         <l> In the mornings, <persName corresp="../metadonnees/IndexPersonnages.xml#PERSEPHONE"
+               >I</persName> gather berries and apples. </l>
+         <l> I scrub his back with rind. </l>
+         <l> I weave spider-spit, eyelash. </l>
+         <l> He talks in his sleep: pudding, fire, discus, </l>
+         <l> the things he misses. </l>
+         <l> He breathes, Your body is my orchard. </l>
+         <l> I am undulating grass. </l>
+         <l> I am a field of wheat he parts with his fingers. </l>
+         <l> Poppies bloom in my veins. </l>
+         <l> When he kisses me, he tastes pomegranate. </l>
+         <l>The night crawls nearer.</l>
+         <l> The moans of the dead roll and swell. </l>
+         <l> Mother, we are well..</l>
+      </body>
+   </text>
+</TEI>
