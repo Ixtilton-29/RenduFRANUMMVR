@@ -1,7 +1,3 @@
----
-title:
-AUTHOR: juliette 
----
 # Readme
 
 ## Présentation du Projet
